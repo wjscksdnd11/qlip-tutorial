@@ -1,0 +1,36 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qlip="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/black"
+    android:contentInsetStartWithNavigation="0dp"
+    android:contentInsetLeft="0dp"
+    qlip:contentInsetStartWithNavigation="0dp"
+    android:contentInsetStart="0dp"
+    qlip:contentInsetLeft="0dp"
+    android:padding="0dp"
+    android:layout_marginLeft="0dp"
+    qlip:layout_scrollFlags="scroll|enterAlways"
+    qlip:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/lv2_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:spinnerMode="dropdown"
+            android:background="@color/transparent_background"
+            android:dropDownSelector="@color/qlip_main_dark_4"
+            android:dropDownVerticalOffset="20dp"
+            />
+
+    </FrameLayout>
+
+
+</android.support.v7.widget.Toolbar>

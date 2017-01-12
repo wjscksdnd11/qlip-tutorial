@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tenqube.com.qlip_android.ui_kj.caledarwidget.CalendarWidgetView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/qlip_main_dark_4"
+    android:id="@+id/calendar_widget"
+    >
+
+</tenqube.com.qlip_android.ui_kj.caledarwidget.CalendarWidgetView>

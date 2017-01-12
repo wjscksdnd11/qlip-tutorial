@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tenqube.com.qlip_android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui_kj.license.OpenSourceLicenseActivity"
+            android:label="@string/title_activity_open_source_license" />
+        <activity android:name=".ui_kj.detail.DetailTransactionActivity" />
+        <activity android:name=".ui_kj.select.category.SelectCategoryActivity" />
+        <activity android:name=".ui_kj.card.CardActivity" />
+        <activity android:name=".ui_kj.transaction.TransactionActivity" />
+        <activity
+            android:name=".ui_kj.calendar.CalendarActivity"
+            android:exported="true" />
+        <activity android:name=".ui_kj.calendar.DetailCalendarActivity" />
+        <activity
+            android:name=".ui_kj.calendar_kj.CalendarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui_kj.calendarsample.CalSampleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui_kj.search.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui_kj.lv0.Lv0Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ui_kj.calendarviewsample.CalViewActivity"
+            android:exported="true" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui_kj.navigation.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui_kj.collapse_calendar.CollapseCalendarActivity"
+            android:exported="true" />
+        <activity android:name=".ui_kj.scroller_example.ScrollerActivity" android:exported="true"></activity>
+    </application>
+
+</manifest>

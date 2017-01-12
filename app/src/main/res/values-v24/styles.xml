@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:listDivider">@color/drawer_divider</item>
+        <item name="itemTextAppearance">@style/NavigationDrawerTextStyle</item>
+        <item name="android:titleMarginStart">24dp</item>
+    </style>
+</resources>

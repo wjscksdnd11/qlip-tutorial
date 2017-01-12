@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/qlip_main_dark_3"
+
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="일"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="월"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="화"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="수"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="목"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="금"
+        android:textColor="@color/qlip_main_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="토"
+        android:textColor="@color/qlip_main_text" />
+</LinearLayout>

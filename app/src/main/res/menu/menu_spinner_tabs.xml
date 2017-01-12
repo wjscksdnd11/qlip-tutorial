@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tenqube.com.qlip_android.ui_kj.pagerCalendar.SpinnerTabsActivity">
+    <item
+        android:id="@+id/search_button"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="200"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/day_sum"
+        android:orderInCategory="100"
+        android:title="합산보기"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/day_item"
+        android:orderInCategory="100"
+        android:title="건별보기"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/day_item_title"
+        android:orderInCategory="100"
+        android:title="내역보기"
+        app:showAsAction="never" />
+
+
+</menu>

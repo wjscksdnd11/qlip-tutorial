@@ -1,0 +1,331 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/qlip_main_dark_3">
+
+    <include layout="@layout/toolbar_edittext_actionbar"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingBottom="@dimen/margin_8"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/withdraw_title"
+                android:layout_marginTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_withdraw_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/withdraw_category_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            />
+            <TextView
+                android:id="@+id/deposit_title"
+                android:layout_marginTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_deposit_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/deposit_category_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/card_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/bank_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/tag_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+            <TextView
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_installment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:id="@+id/installment_container"
+                    android:background="@drawable/bg_selector"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_search_installment"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:id="@+id/etc_img" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/qlip_main_white"
+                        android:text="@string/search_installment"
+                        android:textSize="12sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/bg_selector"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:id="@+id/repeat_container"
+                    android:background="@drawable/bg_selector"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_lv2_repeat"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/qlip_main_white"
+                        android:text="@string/search_repeat"
+                        android:textSize="12sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/bg_selector"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_8"
+                android:paddingLeft="@dimen/margin"
+                android:paddingRight="@dimen/margin"
+                android:paddingTop="@dimen/margin_8"
+                android:textColor="@color/qlip_sub_text"
+                android:textSize="14sp"
+                android:text="@string/search_etc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:id="@+id/usd_container"
+                    android:background="@drawable/bg_selector"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_tag_usd"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/qlip_main_white"
+                        android:text="@string/search_usd"
+                        android:textSize="12sp"
+                        android:id="@+id/category_name" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:paddingLeft="@dimen/margin"
+                    android:paddingRight="@dimen/margin"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:id="@+id/domestic_container"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:background="@drawable/ic_card"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/qlip_main_white"
+                        android:text="@string/search_domestic"
+                        android:textSize="12sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qlip="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    qlip:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    qlip:layout_scrollFlags="scroll|enterAlways" >
+
+
+    <EditText
+
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:id="@+id/toolbar_edit_text"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textColorHint="@color/qlip_sub_text"
+        android:layout_width="250dp"
+        android:layout_height="match_parent" />
+
+
+</android.support.v7.widget.Toolbar>
+
+
+

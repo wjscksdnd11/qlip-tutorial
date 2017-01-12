@@ -1,0 +1,160 @@
+ @Override
+    public void makeFilterQueryAsCountry(String countryType) {
+        if("1".equals(countryType)){
+            filterStr += QueryHelper.AND + TransactionsTable.COLUMN_CURRENCY+"!='none'";
+        }else{
+            filterStr += QueryHelper.AND + TransactionsTable.COLUMN_CURRENCY+"='none'";
+        }
+    }
+    @Override
+    public void makeFilterQueryAsKeyword(String keyword) {
+        filterStr += QueryHelper.AND+
+                "(" +
+                TransactionsTable.COLUMN_KEYWORD+" like '%"+keyword+"%'"+
+                QueryHelper.OR+
+                TransactionsTable.ALIAS+TransactionsTable.COLUMN_MEMO+" like '%"+keyword+"%'" +
+                QueryHelper.OR+
+                TransactionsTable.ALIAS+TransactionsTable.COLUMN_FRANCHISE+" like '%"+keyword+"%'" +
+
+                ")";
+    }
+
+    @Override
+    public void makeFilterQueryAsCard(String changeCardNames) {
+        filterStr +=  TextUtils.isEmpty(changeCardNames)?"":QueryHelper.AND+" ("+changeCardNames+") ";
+    }
+    @Override
+    public void makeFilterQueryAsCategory(String largeCategoryCodes) {
+        filterStr += QueryHelper.AND+ "substr("+TransactionsTable.ALIAS+ CategoryCodeTable.COLUMN_CATEGORY_CODE+",1,2)"+QueryHelper.IN+" ("+largeCategoryCodes+")";
+    }
+
+    @Override
+    public void makeFilterQueryAsHashTag(String hashIds) {
+        String identifiers=TextUtils.join(",",lv2Model.getTagIdentifierList(hashIds).keySet().toArray());
+        filterStr += QueryHelper.AND+ TransactionsTable.ALIAS+TransactionsTable.COLUMN_IDENTIFIER+QueryHelper.IN+" ("+identifiers+")";
+    }
+
+    @Override
+    public void makeFilterQueryAsInstallment() {
+        filterStr += QueryHelper.AND+ TransactionsTable.COLUMN_INSTALLMENT_COUNT+ " > "+Constants.INSTALLMENT_DEFAULT;
+    }
+
+    @Override
+    public void makeFilterQueryAsRepeat() {
+        filterStr += QueryHelper.AND+ TransactionsTable.COLUMN_REPEAT_TYPE+ "!=0";
+    }
+
+    public void setSearchData(SearchData searchData){
+            searchList.clear();
+            lv2Presenter.initFilter();
+            if(searchData != null) {
+                ArrayList<String> tempList = new ArrayList<>();
+                SearchStringData searchStringData;
+
+                if(searchData.startDay !=0 ){
+                    lv2Presenter.makeFilterQueryAsStartDay(searchData.startDay);
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName=getString(R.string.search_start_date2,searchData.startDay);
+                    searchStringData.searchType= START_DAY;
+                    searchStringData.searchQueryStr=searchData.startDay+"";
+                    searchList.add(searchStringData);
+                }
+
+                if(searchData.dateType != 0){
+                    lv2Presenter.makeFilterDateType(searchData.dateType);
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = getString(R.string.lv2_forecast_tran);
+                    searchStringData.searchType = DATE_TYPE;
+                    searchStringData.searchQueryStr = searchData.dateType+"";
+                    searchList.add(searchStringData);
+                }
+                if(searchData.keyword != null&&
+                        !"".equals(searchData.keyword)){
+                    lv2Presenter.makeFilterQueryAsKeyword(searchData.keyword);
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = searchData.keyword;
+                    searchStringData.searchType = KEYWORD;
+                    searchStringData.searchQueryStr = searchData.keyword;
+                    searchList.add(searchStringData);
+                }
+                tempList.clear();
+                if(searchData.usd == 1){
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = getString(R.string.search_usd);
+                    searchStringData.searchType = COUNTRY;
+                    searchStringData.searchQueryStr = "1";
+                    searchList.add(searchStringData);
+                    tempList.add(searchStringData.searchQueryStr);
+                }
+
+                if(searchData.domestic == 1){
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = getString(R.string.search_domestic);
+                    searchStringData.searchType = COUNTRY;
+                    searchStringData.searchQueryStr = "0";
+                    searchList.add(searchStringData);
+                    tempList.add(searchStringData.searchQueryStr);
+                }
+
+                if(tempList.size()>0)lv2Presenter.makeFilterQueryAsCountry(TextUtils.join(",",tempList));
+
+                if(searchData.installment == 1){
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = getString(R.string.search_installment);
+                    searchStringData.searchType = INSTALLMENT;
+                    searchStringData.searchQueryStr = "1";
+                    searchList.add(searchStringData);
+                    lv2Presenter.makeFilterQueryAsInstallment();
+                }
+                if(searchData.repeat == 1){
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = getString(R.string.search_repeat);
+                    searchStringData.searchType = REPEAT;
+                    searchStringData.searchQueryStr = "!=0";
+                    searchList.add(searchStringData);
+                    lv2Presenter.makeFilterQueryAsRepeat();
+                }
+
+                tempList.clear();
+                for (TagTableData model : searchData.hashList) {
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = model.hash_name;
+                    searchStringData.searchType = HASHTAG;
+                    searchStringData.searchQueryStr =+ model.hashTagId+"";
+                    tempList.add(searchStringData.searchQueryStr);
+                    searchList.add(searchStringData);
+                }
+
+                if(tempList.size()>0)lv2Presenter.makeFilterQueryAsHashTag(TextUtils.join(",",tempList));
+
+                tempList.clear();
+                for (CardTableData model : searchData.cardList) {
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = model.changeCardName;
+                    searchStringData.searchType = CARD;
+                    searchStringData.searchQueryStr = "("+ CardTable.COLUMN_CARD_CHANGE_NAME+"='"+model.changeCardName+"'"+QueryHelper.AND+CardTable.COLUMN_CARD_CHANGE_TYPE+"="+model.changeCardType+QueryHelper.AND+CardTable.COLUMN_CARD_CHANGE_SUB_TYPE+"="+model.changeCardSubType+") ";
+                    tempList.add(searchStringData.searchQueryStr);
+                    searchList.add(searchStringData);
+                }
+                if(tempList.size()>0) lv2Presenter.makeFilterQueryAsCard(TextUtils.join(QueryHelper.OR,tempList));
+
+                tempList.clear();
+                for (UserCategoryConfigTableData model : searchData.categoryList) {
+                    searchStringData = new SearchStringData();
+                    searchStringData.searchName = model.largeCategory;
+                    searchStringData.searchType = CATEGORY;
+                    searchStringData.searchQueryStr = "'"+ model.categoryCode+"'";
+                    searchList.add(searchStringData);
+                    tempList.add(searchStringData.searchQueryStr);
+                }
+                if(tempList.size()>0)lv2Presenter.makeFilterQueryAsCategory(TextUtils.join(",", tempList));
+            }
+            if(searchList.size()>0){
+                searchRecyclerView.setVisibility(View.VISIBLE);
+            }else{
+                searchRecyclerView.setVisibility(View.GONE);
+            }
+            lv2Presenter.applyFilterStr();
+            searchAdapter.addAll();
+
+        }

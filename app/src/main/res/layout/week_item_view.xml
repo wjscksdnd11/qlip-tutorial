@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qlip_main_dark_4"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/sunday"
+        android:textColor="@color/qlip_red"/>
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/tuesday" />
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/wednesday" />
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/thursday" />
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/friday" />
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/saturday" />
+
+
+    <TextView
+        style="@style/WeekTextView"
+        android:text="@string/monday" />
+</LinearLayout>

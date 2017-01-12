@@ -1,0 +1,1902 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">qlip</string>
+    <string name="app_kind">qlip</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1657644727841599</string>
+
+    <string name="default_date">0000\-00\-00 00:00:00</string>
+    <string name="default_str">none</string>
+
+    <string name="connect_offline">오프라인으로 접속하셨습니다.</string>
+
+    <string name="action_search">검색</string>>
+
+
+    <!--캘린더-->
+    <string name="option_calendar">option</string>
+    <string name="income_calendar">수입</string>
+    <string name="spnet_calendar">지출</string>
+    <string name="income_spent_calendar">수입/지출</string>
+    <string name="except_type_calendar">제외내역</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <!--카테고리-->
+    <string name="income_main">주수입</string>
+    <string name="income_sub">부수입</string>
+    <string name="loan">금융/대출</string>
+    <string name="income_etc">기타수입</string>
+    <string name="withdraw">출금</string>
+    <string name="highlight">지출</string>
+    <string name="monthly">월간</string>
+    <string name="budget">예산</string>
+    <string name="weekly">주간</string>
+    <string name="oneday">일간</string>
+    <string name="hashTag">태그</string>
+    <string name="deposit_withdraw">수입/지출</string>
+    <string name="advertisement">광고</string>
+    <string name="food">외식</string>
+    <string name="alcohol">술/유흥</string>
+    <string name="cafe">카페/간식</string>
+    <string name="education">학습/교육</string>
+    <string name="transport">교통/차량</string>
+    <string name="finance">금융/보험</string>
+    <string name="culture">문화/예술</string>
+    <string name="livings">주거/통신</string>
+    <string name="mart">생활/마트</string>
+    <string name="beauty">뷰티/미용</string>
+    <string name="shopping">백화점/패션</string>
+    <string name="health_care">의료/건강</string>
+    <string name="travel">여행/숙박</string>
+    <string name="leports">스포츠/레저</string>
+    <string name="online">온라인쇼핑</string>
+    <string name="family_event">경조사/회비</string>
+    <string name="uncate">기타지출</string>
+    <string name="qlip_tip">클립 팁</string>
+
+
+    <!--입출금-->
+
+    <!-- BASE ACTIVITY-->
+    <string name="secession_complete">탈퇴 처리되었습니다.</string>
+    <string name="session_complete"> 로그아웃되었습니다.</string>
+    <string name="card_type_card">신용</string>
+    <string name="card_type_check">체크</string>
+    <string name="card_type_bank_account">계좌</string>
+    <string name="card_type_cash">현금</string>
+    <string name="card_type_corporation">법인</string>
+    <string name="card_type_withdraw_to_check">체크</string>
+
+
+    <string name="check_card">체크카드</string>
+    <string name="credit_card">신용카드</string>
+
+    <string name="dw_type_deposit_str">수입</string>
+    <string name="dw_type_withdraw_str">지출</string>
+
+    <string name="dw_type_deposit">입금</string>
+    <string name="dw_type_withdraw">출금</string>
+    <!--SplashActivity-->
+    <string name="google_play_not_installed">구글 플레이를 설치해주세요.</string>
+
+
+    <!--LockScreenActivity-->
+    <string name="title_activity_lock_screen">설 정 -암호 잠금</string>
+    <string name="input_security">암호 입력</string>
+    <string name="input_security2">암호를 입력해주세요.</string>
+    <string name="input_security3">암호가 일치하지 않습니다.</string>
+    <string name="input_security4">암호가 일치하지 않습니다.\n다시 시도해주세요.</string>
+    <string name="input_security5">확인을 위해 한 번 더 입력해주세요.</string>
+    <string name="lock_num_0">0</string>
+    <string name="lock_num_1">1</string>
+    <string name="lock_num_2">2</string>
+    <string name="lock_num_3">3</string>
+    <string name="lock_num_4">4</string>
+    <string name="lock_num_5">5</string>
+    <string name="lock_num_6">6</string>
+    <string name="lock_num_7">7</string>
+    <string name="lock_num_8">8</string>
+    <string name="lock_num_9">9</string>
+    <string name="lock_num_back">back</string>
+    <string name="lock_num_del">Del</string>
+    <string name="lock_num_cls">cls</string>
+    <string name="lock_num_clr">clr</string>
+    <string name="lock_num_000">,000</string>
+    <string name="lock_num_0000">만</string>
+    <!--Lv0Activity-->
+    <string name="title_activity_lv0">메인화면</string>
+    <string name="lv0_on">ON</string>
+    <string name="lv0_off">OFF</string>
+    <string name="current_week">이번 주</string>
+    <string name="last_week">지난주</string>
+    <string name="current_month">이번 달</string>
+    <string name="last_month">지난달</string>
+    <string name="three_month">지난 3개월</string>
+    <string name="lv0_monthly_header">%1$s (이번 달 지출)</string>
+    <string name="lv0_category_header">%1$s (이번 달 %2$s 지출)</string>
+    <string name="lv0_deposit_withdraw_header">%1$s (이번 달 순수입)</string>
+    <string name="lv0_budget_header">%1$s (남은 예산)</string>
+    <string name="lv0_weekly_header">%1$s (이번 주 지출)</string>
+
+    <string name="lv0_monthly_pie_chart_title">이번 달 지출</string>
+    <string name="lv0_oil_msg">유가 정보가 반영되었습니다.\n(출처 : 한국석유공사 오피넷)</string>
+    <string name="lv0_budget_expected_recent_tran_title">예정 내역</string>
+    <string name="lv0_monthly_recent_tran_title">최근 %1$s 내역</string>
+    <string name="lv0_max_category">최대지출 카테고리</string>
+    <string name="lv0_category">카테고리</string>
+
+    <string name="lv0_max_card_type">최대지출 수단</string>
+    <string name="lv0_card_type">지출 수단</string>
+    <string name="lv0_deposit_withdraw_report">수입 보고서 더 보기</string>
+    <string name="lv0_monthly_report">월간 보고서 더 보기</string>
+    <string name="lv0_weekly_report">주간 보고서 더 보기</string>
+
+    <string name="lv0_budget_report">예산 보고서 더 보기</string>
+    <string name="lv0_advertisement">상품 보러가기</string>
+    <string name="lv0_transaction_list">%1$s내역 더 보기</string>
+    <string name="lv0_expected_transaction_list">예정내역 더 보기</string>
+    <string name="lv0_samsung_apps_store">갤럭시 앱스 리뷰 남기기</string>
+    <string name="lv0_qlip_play_store">구글 플레이 바로가기</string>
+    <string name="lv0_app_sync">알림 연동하기</string>
+    <string name="lv0_normal">%1$s 보고서 더 보기</string>
+    <string name="lv0_notification">감사합니다.</string>
+    <string name="lv0_qlip_thanks">클립을 이용해주셔서 감사합니다.</string>
+
+    <!--LV0 HEADER-->
+
+    <string name="lv0_recent_title_2">이체/인출</string>
+    <string name="lv0_budget_header_1">이번 달 예산</string>
+    <string name="lv0_budget_header_2">예정된 지출</string>
+    <string name="lv0_budget_header_3">잔여 할부</string>
+
+    <string name="lv0_budget_header_chart_1">이번 달 예산 소진율</string>
+    <string name="lv0_budget_header_chart_2">현재 일일 지출</string>
+    <string name="lv0_budget_header_chart_more">초과</string>
+    <string name="lv0_budget_header_chart_stable">적정</string>
+    <string name="lv0_budget_header_chart_3">예산:%1$s</string>
+
+
+    <string name="lv0_weekly_header_chart_1">이번 주 누적 지출</string>
+    <string name="lv0_weekly_header_chart_2">주간 지출 추이</string>
+    <string name="lv0_weekly_header_chart_3">권장지출:%1$s</string>
+
+
+    <!--SessionActivity-->
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="none">none</string>
+    <string name="server_client_id">947524036568-q7hq6fnpa7ph4nlasblisfm6lvo32pmh.apps.googleusercontent.com</string>
+    <string name="facebook_empty_email">페이스북에 이메일 계정이 등록되어있지 않습니다. 일반 가입 또는 구글 계정을 연동해주세요.</string>
+    <string name="facebook">facebook</string>
+    <string name="google">google</string>
+    <string name="email_empty">가입되지 않은 회원입니다.</string>
+    <string name="password_incorrect">비밀번호가 일치하지 않습니다.</string>
+
+    <string name="email_already_exist">이미 가입된 이메일입니다.</string>
+
+    <!--RequestPasswordFragment-->
+    <string name="request_password_login">로그인하기</string>
+    <string name="customLogin">로그인</string>
+    <string name="password_title">비밀번호 요청</string>
+
+    <string name="password_btn">재설정 링크 전송하기</string>
+    <string name="password_bottom">클립을 처음 사용하시나요?</string>
+    <string name="password_request_content">비밀번호를 잊으셨나요?</string>
+    <string name="password_request_search">비밀번호 찾기</string>
+
+    <string name="confirm_email_title">비밀번호 확인</string>
+
+    <string name="request_password_msg">비밀번호 재설정 링크가 전송되었습니다.</string>
+    <!--SessionSignUp1Fragment-->
+    <string name="sign_up">회원가입</string>
+    <string name="email_hint">qlip@tenqube.com</string>
+    <string name="home_tax_hint">홈택스 아이디를 입력하세요.</string>
+    <string name="email_sign_up">이메일 가입하기</string>
+    <string name="google_sign_up">구글로 가입하기</string>
+    <string name="facebook_sign_up">페이스북으로 가입하기</string>
+    <string name="already_sign_up">이미 아이디가 있으신가요?</string>
+    <string name="go_login">로그인하기</string>
+    <string name="invalid_email"> 이메일 형식이 맞지 않습니다.</string>
+    <string name="password_limit">비밀번호는 최소 4자리 이상입니다.</string>
+    <string name="password_confirm">일반 가입자의 경우 비밀번호 확인이 필요합니다.</string>
+
+    <string name="home_tax_password_limit">비밀번호를 입력하세요.</string>
+    <string name="private_login">공인인증서 로그인</string>
+    <string name="login">로그인</string>
+    <string name="confrim_email">비밀번호 확인</string>
+    <string name="google_login">구글로 로그인하기</string>
+    <string name="facebook_login">페이스북으로 로그인하기</string>
+    <string name="qlip_init">클립을 처음 사용하시나요?</string>
+    <string name="go_sign_up">가입하기</string>
+    <string name="auto_save_id_pwd">아이디와 비밀번호 자동저장</string>
+    <string name="home_tax_login">홈택스 로그인</string>
+    <!--SignupStep2Fragment-->
+    <string name="agree">&lt;font color=\"#00a468\"&gt;&lt;u&gt;&lt;a href="http://tenqube.com/service_agreement_1.html"&gt;서비스 이용약관&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;, &lt;font color=\"#00a468\"&gt;&lt;u&gt;&lt;a href="http://tenqube.com/service_agreement_2.html"&gt;개인정보 취급방침&lt;/a&gt;&lt;/u&gt;&lt;/font&gt; 및\n&lt;font color=\"#00a468\"&gt;&lt;u&gt;&lt;a href="http://tenqube.com/service_agreement_3.html"&gt;위치정보 활용&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;에 동의합니다.</string>
+
+    <string name="month_budget">월 예산</string>
+    <string name="sign_up_step2_title">상세정보 입력</string>
+    <string name="input_budget">월 예산을 입력해주세요</string>
+    <string name="input_sex">성별을 입력해주세요 </string>
+    <string name="input_birth">태어난 해를 입력해주세요 </string>
+    <string name="xml_birth">태어난 해</string>
+    <string name="xml_sex">성별</string>
+    <string name="ten_thousand_won">만원</string>
+    <string name="won">원</string>
+    <string name="date">일</string>
+    <string name="year">년</string>
+    <string name="start_sign_up">가입하고 분석을 시작합니다!</string>
+
+
+    <!--Dialog-->
+    <string name="request_permission_title_storage">외부 저장소에 대한 권한이 필요합니다.</string>
+    <string name="request_permission_content_storage">엑셀 파일 내보내기를 위해 외부 저장소에 대한 권한이 필요합니다. 권한이 없는 경우 엑셀 파일 내보내기 사용이 불가합니다.</string>
+
+    <string name="request_permission_title_location">위치정보 권한이 필요합니다.</string>
+    <string name="request_permission_content_location">혜택 알림, 쿠폰 제공 등의 서비스를 위해 결제 시 위치정보를 수신합니다.</string>
+    <string name="request_permission_title_sms">SMS 접근 권한이 필요합니다.</string>
+    <string name="request_permission_content_sms">지출 내역을 자동으로 기록하고 분석하기 위해 SMS 접근 권한이 필요합니다. 권한이 없는 경우 정상적인 서비스 이용이 불가합니다.</string>
+
+    <string name="request_permission_title_account_calendar">주소록, 캘린더 권한이 필요합니다.</string>
+    <string name="request_permission_content_account_calendar">구글 캘린더 활용을 위해 주소록, 캘린더 권한이 필요합니다. 권한이 없는 경우 구글 캘린더 서비스 사용이 불가합니다.</string>
+    <string name="request_permission_title_camera">카메라, 외부 저장소에 대한 권한이 필요합니다.</string>
+    <string name="request_permission_content_camera">사진 촬영을 위해 카메라 권한이 필요합니다. 권한이 없는 경우 사진 촬영 서비스 사용이 불가합니다.</string>
+
+    <string name="request_permission_title_account">주소록 권한이 필요합니다.</string>
+    <string name="request_permission_content_account">구글 캘린더 활용을 위해 주소록 권한이 필요합니다. 권한이 없는 경우 구글 캘린더 서비스 사용이 불가합니다.</string>
+    <string name="request_permission_title_calendar">캘린더 권한이 필요합니다.</string>
+    <string name="request_permission_content_calendar">구글 캘린더 활용을 위해 캘린더 권한이 필요합니다. 권한이 없는 경우 구글 캘린더 서비스 사용이 불가합니다.</string>
+
+    <string name="request_permission_title_fingerprint">지문 권한이 필요합니다.</string>
+    <string name="request_permission_content_fingerprint">지문인식을 위해 지문 권한이 필요합니다. 권한이 없는 경우 사용이 불가합니다.</string>
+
+    <string name="request_permission">확인</string>
+    <string name="need_update_title">새로운 버전이 출시되었습니다. 업데이트 후에 이용할 수 있습니다.</string>
+    <string name="server_busy_title">새로운 서버 로직을 반영하고 있습니다.</string>
+    <string name="need_update_yes">업데이트</string>
+    <string name="need_update_no">종료</string>
+
+
+    <!--server-->
+    <string name="base_url">https://app.myqlip.com/api/v/</string>
+    <string name="base_url_tokyo">https://myqlip.com/api/v/</string>
+    <string name="base_test_url">https://test.myqlip.com/api/v/</string>
+    <string name="img_url">https://s3.ap-northeast-2.amazonaws.com/qlip-android-images/</string>
+
+
+    <string name="expired_token">expired token</string>
+    <string name="request_token">세션이 만료되었습니다.</string>
+    <string name="server_error">네트워크 연결이 불안정합니다. 잠시 후 다시 이용해주세요.</string>
+    <string name="string_error">\',\",\`문자는 입력 할 수 없습니다.</string>
+    <string name="request_pwd_error">가입되지 않은 Email 입니다.</string>
+    <string name="server_error_unexpected">네트워크 연결이 불안정합니다. 잠시 후 다시 이용해주세요.</string>
+    <string name="already_same_name">이미 같은 이름이 존재합니다.</string>
+    <string name="server_error_ambiguous">탈퇴가 처리되었습니다.</string>
+
+
+    <!--json-->
+    <string name="repBank">repBank</string>
+    <string name="subCard">subCard</string>
+    <string name="isRep">isRep</string>
+
+
+    <string name="representation">representation</string>
+    <string name="totalCardName">totalCardName</string>
+    <string name="totalCardType">totalCardType</string>
+    <string name="totalCardSubType">totalCardSubType</string>
+
+    <string name="changeCardName">changeCardName</string>
+    <string name="changeCardType">changeCardType</string>
+    <string name="changeCardSubType">changeCardSubType</string>
+
+    <string name="cardName">cardName</string>
+    <string name="billingDate">billingDate</string>
+
+    <string name="totalSum">totalSum</string>
+    <string name="totalSumName">totalSumName</string>
+    <string name="cardImgPath">cardImgPath</string>
+
+    <string name="finishDate">finishDate</string>
+    <string name="spentDate">spentDate</string>
+    <string name="spentMoney">spentMoney</string>
+    <string name="keyword">keyword</string>
+    <string name="keywordSearch">keywordSearch</string>
+    <string name="repeatType">repeatType</string>
+    <string name="installmentCount">installmentCount</string>
+
+    <string name="installmentList">installmentList</string>
+
+    <string name="isComplete">isComplete</string>
+    <string name="currency">currency</string>
+    <string name="cardType">cardType</string>
+    <string name="cardSubType">cardSubType</string>
+    <string name="dwType">dwType</string>
+    <string name="smsType">smsType</string>
+    <string name="identifier">identifier</string>
+    <string name="referencedIdentifier">referencedIdentifier</string>
+
+    <string name="deleteType">deleteType</string>
+
+
+    <string name="title">title</string>
+    <string name="msg">msg</string>
+    <string name="notiDate">notiDate</string>
+
+    <string name="tranType">tranType</string>
+    <string name="fullSms">fullSms</string>
+    <string name="spentLatitude">spentLatitude</string>
+    <string name="spentLongitude">spentLongitude</string>
+    <string name="isDuplicate">isDuplicate</string>
+    <string name="categoryCode">categoryCode</string>
+    <string name="isOffset">isOffset</string>
+    <string name="priority">priority</string>
+    <string name="isUpdateAll">isUpdateAll</string>
+    <string name="isUserUpdate">isUserUpdate</string>
+    <string name="memo">memo</string>
+    <string name="transactionList">transactionList</string>
+    <string name="depositList">depositList</string>
+    <string name="categoryList">categoryList</string>
+    <string name="withdrawList">withdrawList</string>
+    <string name="bankList">bankList</string>
+
+    <string name="tagList">tagList</string>
+    <string name="calendarList">calendarList</string>
+    <string name="smsList">smsList</string>
+    <string name="dwList">dwList</string>
+    <string name="smsDate">smsDate</string>
+    <string name="sender">sender</string>
+
+    <string name="tag">tag</string>
+    <string name="changeTag">changeTag</string>
+    <string name="identifierList">identifierList</string>
+    <string name="mainType">mainType</string>
+
+    <string name="userEmail">userEmail</string>
+    <string name="userPwd">userPwd</string>
+
+    <string name="userSex">userSex</string>
+    <string name="userAge">userAge</string>
+    <string name="fcmToken">fcmToken</string>
+    <string name="googleAID">googleAID</string>
+    <string name="deviceUniqueId">deviceUniqueId</string>
+
+    <string name="deviceType">deviceType</string>
+    <string name="uniqueId">uniqueId</string>
+    <string name="initBudget">budget</string>
+    <string name="signupType">signupType</string>
+    <string name="serverKey">serverKey</string>
+
+    <string name="androidError">androidError</string>
+    <string name="versionCode">versionCode</string>
+    <string name="deviceVersion">deviceVersion</string>
+    <string name="deviceModelName">deviceModelName</string>
+    <string name="deviceOsVersion">deviceOsVersion</string>
+    <string name="userApps">userApps</string>
+    <string name="appStore">appStore</string>
+
+    <string name="password">password</string>
+    <string name="googleToken">googleToken</string>
+    <string name="facebookToken">facebookToken</string>
+    <string name="isChecked">isChecked</string>
+    <string name="installment">installment</string>
+    <string name="settings_budget">budget</string>
+    <string name="settings_daily">daily</string>
+    <string name="settings_spend">spend</string>
+    <string name="settings_comic">comic</string>
+    <string name="settings_google_calendar">googleCalendar</string>
+    <string name="settings_password">password</string>
+
+    <string name="startDay">startDay</string>
+    <string name="exceptCard">exceptCard</string>
+    <string name="exceptCardList">exceptCardList</string>
+    <string name="cardList">cardList</string>
+
+    <string name="budgetList">budgetList</string>
+
+    <string name="token">token</string>
+
+    <string name="exceptType">exceptType</string>
+    <string name="exceptCardName">exceptCardName</string>
+
+    <string name="budgetYear">budgetYear</string>
+    <string name="budgetMonth">budgetMonth</string>
+
+    <string name="fromBankAccount">fromBankAccount</string>
+    <string name="toBankAccount">toBankAccount</string>
+
+    <string name="original">original</string>
+    <string name="reference">reference</string>
+
+
+    <!--navigation drawer-->
+    <string name="drawer_board_msg_1">See how you spend</string>
+    <string name="drawer_board_msg_2">Spot your opportunity to save money </string>
+    <string name="drawer_board_msg_3">Clip your interest</string>
+    <string name="drawer_spending_history">수입/지출 내역</string>
+    <string name="drawer_deposit_history">입출금 내역</string>
+    <string name="drawer_direct_go">보고서 바로가기</string>
+    <string name="drawer_each_category">분류별</string>
+    <string name="drawer_noti_catch">어플알림 연동</string>
+    <string name="drawer_settings">설정</string>
+    <string name="drawer_ask_qlip">도움말 및 의견</string>
+    <string name="drawer_lv2_tran">수입•지출 내역</string>
+    <string name="drawer_library_card_bank">카드•계좌</string>
+    <string name="drawer_library_category_tag">카테고리•태그</string>
+    <string name="drawer_month_buget">월 예산</string>
+    <string name="drawer_faq">도움말 및 옵션</string>
+
+
+    <string name="title_activity_loading">LoadingActivity</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--LoadingActivity-->
+
+    <string name="loading_lcontent1">자동 기록</string>
+    <string name="loading_lcontent2">상세한 분석</string>
+    <string name="loading_lcontent3">다양한 기능</string>
+    <string name="loading_lcontent4">인식되지 않은 문자가 있다면?</string>
+
+    <string name="loading_scontent1">클립은 SMS를 통해 지출 내역을 자동으로\n기록합니다.</string>
+    <string name="loading_scontent2">클립은 소비는 물론 생활패턴까지 분석하여\n의미있는 정보를 제공합니다.</string>
+    <string name="loading_scontent3">설정을 통해 구글 캘린더 연동, 시작일 변경,\n엑셀 파일 내보내기, 할부 등 다양한 기능을 이용할 수 있습니다.</string>
+    <string name="loading_scontent4">인식되지 않은 문자는 저희에게 제보해주세요!</string>
+    <string name="loading_start">시작하기</string>
+    <string name="loading">지출 내역을 분석 중입니다.</string>
+    <string name="loading_dialog_yes">재시도</string>
+    <string name="loading_dialog_no">종료</string>
+    <string name="loading_dialog_title">네트워크 연결 오류</string>
+    <string name="loading_dialog_content">인터넷 접속이 원활하지 않습니다.</string>
+    <string name="loading_server_request">서버 요청 중입니다.</string>
+    <string name="loading_server_update">업데이트 중입니다.</string>
+    <string name="loading_server_sync">서버와 동기화하고 있습니다.</string>
+    <string name="loading_analysis_spend">지출내역을 분석합니다.</string>
+
+    <string name="loading_text">%1$s %2$d</string>
+
+    <string name="loading_100">100</string>
+
+
+    <!--Permission-->
+
+    <string name="permissions_not_granted_sms">SMS 접근권한이 거절되어 정상적인 서비스 이용이 불가합니다.</string>
+    <string name="permissions_granted_sms">SMS 접근권한이 정상적으로 허용되었습니다.</string>
+    <string name="permissions_granted_location">위치정보 접근권한이 정상적으로 허용되었습니다.</string>
+
+    <string name="permissions_not_granted_account">접근권한이 거절되어 캘린더 연동을 할 수 없습니다.</string>
+    <string name="permissions_not_granted_location">위치정보 접근 권한이 거절되어 혜택/쿠폰을 보내드릴 수 없습니다.</string>
+    <string name="permissions_not_granted_storage">외부파일 읽기/쓰기 권한이 거절되어 기능을 수행할 수 없습니다.</string>
+    <string name="permissions_not_granted_calendar">캘린더 접근 권한이 거절되어 정상적인 서비스 이용이 불가합니다.</string>
+    <string name="permissions_not_granted_camera">카메라, 외부파일 읽기/쓰기 권한이 거절되어 기능을 수행할 수 없습니다.</string>
+
+
+    <!--Chart-->
+    <string name="sunday_short">일</string>
+    <string name="monday_short">월</string>
+    <string name="tuesday_short">화</string>
+    <string name="wednesday_short">수</string>
+    <string name="thursday_short">목</string>
+    <string name="friday_short">금</string>
+    <string name="saturday_short">토</string>
+
+    <string name="time_2">02:00:00</string>
+    <string name="time_5">05:00:00</string>
+    <string name="time_8">08:00:00</string>
+    <string name="time_11">11:00:00</string>
+    <string name="time_14">14:00:00</string>
+    <string name="time_17">17:00:00</string>
+    <string name="time_20">20:00:00</string>
+    <string name="time_23">23:00:00</string>
+    <string name="time_00">00:00:00</string>
+
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+
+    <!--Qliper-->
+    <string name="month">월</string>
+
+    <string name="weekly_trend_increase">지출이 증가하고 있습니다.</string>
+    <string name="weekly_trend_decrease">지출이 감소하고 있습니다.</string>
+    <string name="weekly_trend_normal">지출 수준에 큰 변화가 없습니다.</string>
+
+    <!--Lv0 QLIP_TIP-->
+    <string name="lv0_qlip_tip_play_store_review_large">구글 플레이에 별점을 남겨주시면\n큰 힘이 됩니다!</string>
+    <string name="lv0_qlip_tip_play_store_review_small">앞으로도 클립에 많은 관심과 응원,\n입소문 부탁드리며,\n계속 발전하는 모습 보여드리겠습니다!</string>
+
+    <string name="lv0_qlip_tip_app_sync_large">은행 및 카드사 어플의 푸시 알림도\n분석 가능합니다.</string>
+    <string name="lv0_qlip_tip_app_sync_small">클립 메뉴에서 \'어플알림 연동\'을 ON으로 설정하시면 푸시알림에 대한 내역을 분석할 수 있습니다.</string>
+
+    <string name="lv0_qlip_tip_chooseok_large">즐거운 한가위 되세요!</string>
+    <string name="lv0_qlip_tip_chooseok_small">클립에도 풍성한 별점과 리뷰를 부탁드립니다 :D </string>
+
+    <string name="lv0_qlip_tip_update_large">클립이 업데이트되었어요.</string>
+    <string name="lv0_qlip_tip_update_small">향상된 정확도! 더 재미있는 콘텐츠!\n지금 바로 구글 플레이에서\n업데이트하세요!</string>
+
+    <string name="lv0_qlip_tip_tag_large">태그 기능은 무엇일까요?</string>
+    <string name="lv0_qlip_tip_tag_small">내역에 태그를 달아보세요!\n태그된 지출만 따로 보거나\n분석에서 제외할 수 있습니다.</string>
+
+    <string name="lv0_qlip_tip_zero_large">분석할 수 있는\n문자가 없습니다.</string>
+    <string name="lv0_qlip_tip_zero_small">지금 바로 카드사에 신청하세요!\nSMS 승인/취소 알림은 카드 결제에 대한\n가장 강력하고 간단한 보안수단입니다.</string>
+
+    <string name="lv0_qlip_tip_except_card_large">특정 계좌/카드를\n분석에서 제외할 수 있습니다.</string>
+    <string name="lv0_qlip_tip_except_card_small">공용카드나 법인카드 등\n특정 계좌 또는 카드를 제외할 수 있습니다.\n내 라이브러리에서 카드 또는 계좌를 선택하고 \'분석에서 제외\'를 눌러주세요.</string>
+
+    <string name="lv0_qlip_tip_request_sms_large">이건 왜 인식이 안되지?</string>
+    <string name="lv0_qlip_tip_request_sms_small">인식되지 않는 SMS가 있나요?\n해당 내역을 보내주시면\n빠른 시일 내에 반영하겠습니다.</string>
+
+    <string name="lv0_qlip_tip_google_calendar_large">구글 캘린더에\n지출을 입력해드릴까요?</string>
+    <string name="lv0_qlip_tip_google_calendar_small">캘린더 연동을 통해\n캘린더에 수입과 지출금액을 기록할 수 있어요.\n연동을 해제하면 캘린더가 삭제됩니다.</string>
+
+    <string name="lv0_qlip_tip_start_day_large">시작일을 변경할 수 있어요.</string>
+    <string name="lv0_qlip_tip_start_day_small">예정된 지출도 미리 입력할 수 있습니다.\n해당일에 뜨는 알림을 통해 간편하게 입력하세요!</string>
+
+    <string name="lv0_qlip_tip_plan_large">지출을 계획해보세요!</string>
+    <string name="lv0_qlip_tip_plan_small">월급일, 카드 결제일 등으로\n월 시작일을 변경할 수 있습니다.\n며칠을 시작일로 할까요?</string>
+
+    <string name="lv0_qlip_tip_money_book_large">가계부, 이제 필요 없어요!</string>
+    <string name="lv0_qlip_tip_money_book_small">매일 가계부 작성하기 힘드셨죠?\n이제는 기록, 관리, 분석까지\n클립으로 한 번에 해결하세요!</string>
+
+    <string name="lv0_qlip_tip_search_large">수입/지출검색 해보셨나요?\n생각보다 재밌어요!</string>
+    <string name="lv0_qlip_tip_search_small">검색 화면에서\n카드별, 지출처별, 태그별, 조건별로 검색이 가능합니다.</string>
+
+    <string name="lv0_qlip_tip_help_large">클립 - 당신의 수입/지출 관리를 도와드립니다.</string>
+    <string name="lv0_qlip_tip_help_small">클립은 수입과 지출을 자동으로 기록하고\n분석해주는 서비스입니다.\n이제는 간편하게 관리하세요!</string>
+
+    <string name="lv0_qlip_tip_security_large">보안은 철저하게!</string>
+    <string name="lv0_qlip_tip_security_small">클립에서는 보안을 위해 SSL암호화 서비스를\n이용하고 있습니다.</string>
+
+    <string name="lv0_qlip_tip_security2_large">개인 정보&#8230; 안전한가요?</string>
+    <string name="lv0_qlip_tip_security2_small">클립은 개인정보를 요구하지 않습니다.\n메일 주소는 웹서비스와의 동기화를 위해\n사용됩니다.</string>
+
+
+    <string name="lv0_qlip_tip_app_sync_off_large">어플알림 연동이 꺼져있습니다.</string>
+    <string name="lv0_qlip_tip_app_sync_off_small">카드사 어플의 푸시알림 연동을 원하신다면\n해당 어플에서 푸시를 받아보고 있어야하며,\n클립에서도 \'어플알림 연동\'이 ON으로 설정되어야 합니다.</string>
+
+
+    <string name="lv0_qlip_tip_samsung_apps_large">지금 바로 앱 리뷰 남기고\n영화예매권 당첨 기회를 잡으세요!</string>
+    <string name="lv0_qlip_tip_samsung_apps_small">[기간] 9월 2일~9월 22일\n[방법] 갤럭시앱스에 리뷰 &amp; 평점 등록\n[경품] CGV 주말 예매권 2매 (30명)\n[발표] 9월 28일, 갤럭시 앱스 ID(이메일) 통보\n당첨자 리스트 클립 페이스북에 게재</string>
+
+
+    <!--Lv0 BUDGET-->
+    <string name="lv0_budget_last_month_35_large">사실… 예산에 맞춰 쓰려고 한 것은\n아니었죠?</string>
+    <string name="lv0_budget_last_month_35_small">지난달 지출은 %1$s으로\n예산을 크게 초과(%2$s)했습니다.\n\n앞으로도 지난달과 유사한 수준의 지출이\n예상된다면, 효과적인 지출관리를 위해\n예산을 다시 설정하는 것이 좋습니다.</string>
+
+
+    <string name="lv0_budget_last_month_36_large">예산을 너무 크게 잡은 것이\n아닐까요?</string>
+    <string name="lv0_budget_last_month_36_small">지난달 예산에서 %1$s 남았습니다.\n(지난달 지출 %2$s, 예산의 %3$s 사용 )\n\n앞으로 계속 예산이 이 정도 남는다면\n예산을 다시 짜는 것이 더 효과적입니다.</string>
+
+
+    <string name="lv0_budget_last_month_89_large">지난달, 예산에 딱 맞춰\n지출했습니다.</string>
+    <string name="lv0_budget_last_month_89_small">예산 %1$s, 실제 지출은 %2$s으로\n"예산에 맞춰 지출했습니다.\n\n이번 달도 파이팅!</string>
+
+    <string name="lv0_budget_last_month_88_large">지난달, 예산을 초과했습니다.</string>
+    <string name="lv0_budget_last_month_88_small">지난달 지출은 %1$s으로,\n예산보다 %2$s 많이 썼습니다.\n\n어디에 지출이 많았는지\n월간보고서와 지출 내역을 확인해보세요.</string>
+
+    <string name="lv0_budget_last_month_105_large">지난달, 예산보다 적게 지출했습니다.</string>
+    <string name="lv0_budget_last_month_105_small">예산 %1$s, 실제 지출은 %2$s으로\n예산보다 %3$s적게 지출했습니다. \n\n혹시 입력되지 않은 지출이 있는지\n지난달 지출 내역을 확인해보세요.</string>
+
+    <string name="lv0_budget_current_month_37_large">예산을\n%1$s 초과했습니다.</string>
+    <string name="lv0_budget_current_month_37_small">월 예산을 %1$s 초과했습니다.\n월말까지 예산을 %2$s 초과할 것 같습니다.</string>
+
+    <string name="lv0_budget_current_month_39_large">월 예산을 늘리는 것은\n어떨까요?</string>
+    <string name="lv0_budget_current_month_39_small">월 예산을 %1$s 초과했습니다.\n월말까지 예산을 %2$s 초과할 것 같습니다.</string>
+
+    <string name="lv0_budget_current_month_40_large">넘어버렸어&#8230;</string>
+    <string name="lv0_budget_current_month_40_small">예산을 초과했습니다.\n월말까지 %1$d일 남았으며, \n이번 달 예상 지출은 %2$s입니다.</string>
+
+    <string name="lv0_budget_current_month_41_large">월 예산을 초과했습니다.\n이번 달 예상 지출은 %1$s입니다.</string>
+    <string name="lv0_budget_current_month_41_small">월 예산을 %1$s 초과했습니다.\n월말까지 예산을 %2$s초과할 것 같습니다.</string>
+
+    <string name="lv0_budget_current_month_42_large">예산 소진까지 %1$d일 남았습니다.</string>
+    <string name="lv0_budget_current_month_42_small">월말까지는 %1$d일 남았는데,\n남은 예산은 %2$s입니다.\n\n이번 달 지출은 %3$s으로 예상됩니다.</string>
+
+
+    <string name="lv0_budget_current_month_43_large">조금 절약해볼까요?</string>
+    <string name="lv0_budget_current_month_43_small">현재 하루 평균 지출은 %1$s입니다.\n\n예산을 지키기 위해\n하루 %2$s이하 지출을 권장합니다.</string>
+
+    <string name="lv0_budget_current_month_44_large">지출을 줄여야합니다.</string>
+    <string name="lv0_budget_current_month_44_small">앞으로 하루에 %1$s 이하로 써야\n예산 %2$s을 달성할 수 있습니다.\n(현재 하루에 %3$s 지출 중)</string>
+
+    <string name="lv0_budget_current_month_45_large">예산이 %1$s 남을 것 같습니다.</string>
+    <string name="lv0_budget_current_month_45_small">설정한 예산 대비 지출이 적은 편입니다.\n\n이번 달 지출은 %1$s으로 예상됩니다. 예산의 \n%2$s 수준입니다.</string>
+    <string name="lv0_budget_current_month_152_large">남은 기간도 이렇게만 간다면&#8230;</string>
+    <string name="lv0_budget_current_month_152_small">설정한 예산 대비 지출이 적은 편입니다.\n\n그러나 평균적으로 남은 기간 지출이 많아\n이번 달 지출은 %1$s으로 예상됩니다.</string>
+
+
+    <string name="lv0_budget_current_month_46_large">딱 좋아요!</string>
+    <string name="lv0_budget_current_month_46_small">%1$d일 동안 권장 지출은 %2$s입니다.\n현재 지출은 %3$s (%4$s)입니다.</string>
+
+    <string name="lv0_budget_current_month_47_large">이대로라면 걱정 없어요!</string>
+    <string name="lv0_budget_current_month_47_small">이번 달 지출은 %1$s으로 예상됩니다.\n이는 예산의 %2$s 수준입니다.</string>
+
+
+    <string name="lv0_budget_current_month_153_large">남은 기간이 중요해요!</string>
+    <string name="lv0_budget_current_month_153_small">오늘까지 지출은 %1$s입니다.\n\n그러나 남은 기간 지출을 분석해 볼 때\n이번 달 지출은 %2$s으로 예상됩니다.</string>
+
+    <string name="lv0_budget_current_month_48_large">설정된 예산 규모가\n너무 작습니다.</string>
+    <string name="lv0_budget_current_month_48_small">정확하고 유용한 분석을 위해\n예산을 다시 설정해주세요.\n(최소금액 : 1만원)</string>
+
+    <!--LV0_DEPOSIT_WITHDRAW-->
+    <string name="lv0_dw_165_large">이번 달 순수입은 %1$s입니다.</string>
+    <string name="lv0_dw_165_small">수입%1$s, 지출 %2$s으로\n5월 현재 순수입은 %3$s입니다.</string>
+
+    <string name="lv0_dw_166_large">이번 달 순수입은 %1$s으로,\n지난달보다 적을 것 같습니다.</string>
+    <string name="lv0_dw_166_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건)으로\n현재 순수입은 %5$s입니다.\n\n지난달의 같은 날짜보다 %6$s 적습니다.</string>
+
+    <string name="lv0_dw_167_large">이번 달 순수입은 %1$s으로,\n지난달과 비슷할 것 같습니다.</string>
+    <string name="lv0_dw_167_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건)으로\n현재 순수입은 %5$s입니다.\n\n지난달의 같은 날짜와 비슷한 수준입니다.</string>
+
+    <string name="lv0_dw_168_large">이번 달 순수입은 %1$s으로,\n지난달보다 많을 것 같습니다.</string>
+    <string name="lv0_dw_168_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건)으로\n현재 순수입은 %5$s입니다.\n\n지난달 같은 날짜보다 %6$s 많습니다.</string>
+
+    <string name="lv0_dw_169_large">%1$s월 순수입은 %2$s으로,\n%3$s월보다 적었습니다.</string>
+    <string name="lv0_dw_169_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건) 으로\n%5$s월 순수입은 %6$s월보다 %7$s 적습니다.\n\n(%8$s월 순수입 : %9$s)</string>
+
+    <string name="lv0_dw_170_large">%1$s월 순수입은 %2$s으로,\n%3$s월과 비슷했습니다.</string>
+    <string name="lv0_dw_170_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건) 으로\n%5$s월 순수입은 %6$s월과 비슷합니다.\n\n(%7$s월 순수입 : %8$s)</string>
+
+    <string name="lv0_dw_171_large">%1$s월 순수입은 %2$s으로,\n%3$s월보다 많았습니다.</string>
+    <string name="lv0_dw_171_small">수입 %1$s (%2$s건),\n지출 %3$s (%4$s건) 으로\n%5$s월 순수입은 %6$s월보다 %7$s 많습니다.\n\n(%8$s월 순수입 : %9$s)</string>
+
+
+    <string name="lv0_dw_172_large">평소보다 지난달 순수입이 적습니다.</string>
+    <string name="lv0_dw_172_small">%1$s월 순수입은 %2$s으로,\n그 이전보다 %3$s 줄었습니다.\n\n(이전 6개월 평균 : %4$s)</string>
+
+    <string name="lv0_dw_173_large">평소보다 지난달 순수입이 많습니다.</string>
+    <string name="lv0_dw_173_small">%1$s월 순수입은 %2$s으로,\n그 이전보다 %3$s 늘었습니다.\n\n(이전 6개월 평균 : %4$s)</string>
+
+    <string name="lv0_dw_174_large">지난달은 평소 수준과 같습니다.</string>
+    <string name="lv0_dw_174_small">%1$s월 순수입은 %2$s으로,\n평소와 비슷한 수준입니다.\n\n(이전 6개월 평균 : %3$s)</string>
+
+    <string name="lv0_dw_175_large">지난 3개월 누적 순수입은\n%1$s입니다.</string>
+    <string name="lv0_dw_175_small">수입 %1$s, 지출 %2$s으로\n%3$s 누적 순수입은\n%4$s입니다.</string>
+
+    <string name="lv0_dw_176_large">올해 누적 순수입은 %1$s입니다.</string>
+    <string name="lv0_dw_176_small">1월부터 %1$d월까지 누적 순수입은\n%2$s (월 평균 %3$s)입니다.\n\n월 평균 수입은 %4$s,\n지출은 %5$s입니다.</string>
+
+    <string name="lv0_dw_177_large">올해 지출이 수입보다 많습니다.</string>
+    <string name="lv0_dw_177_small">올해 누적 순수입은 -31.2만원입니다.\n지출은 312.2만원, 수입은 210.2만원입니다.</string>
+
+    <string name="lv0_dw_178_large">올해 들어 순수입이 가장 많은 달은\n%1$d월입니다.</string>
+    <string name="lv0_dw_178_small">수입 %1$s, 지출 %2$s으로\n순수입은 %3$s입니다.\n\n이 달 최대 수입처는 "%4$s"입니다.\n(+%5$s)</string>
+
+    <string name="lv0_dw_179_large">올해 순수입이 가장 적은 달은\n%1$d월입니다.</string>
+    <string name="lv0_dw_179_small">수입 %1$s, 지출 %2$s으로\n순수입은 %3$s입니다.\n\n%4$s월 최대 지출처는 "%5$s"입니다.\n(-%6$s)</string>
+
+    <string name="lv0_dw_180_large">올해 수입이 기록되지 않은 달이 있습니다.</string>
+    <string name="lv0_dw_180_small">다양한 분석 콘텐츠를 보기 위해\n수입을 기록해보세요!\n\n올해 수입이 기록되지 않은 달은\n%1$s 입니다.</string>
+
+    <string name="lv0_dw_181_large">지난달 총수입은 %1$s입니다.</string>
+    <string name="lv0_dw_181_small">최대 수입내역은 %1$s,\n%2$s(%3$s)입니다.</string>
+
+    <string name="lv0_dw_182_large">이번 달 총수입은 %1$s입니다.</string>
+    <string name="lv0_dw_182_small">최대 수입내역은 %1$s,\n%2$s(%3$s)입니다.</string>
+
+
+    <string name="lv0_dw_183_large">이번 달 수입이 아직 기록되지 않았습니다.</string>
+    <string name="lv0_dw_183_small">수입을 기록하여 더욱 정확하게\n자산을 관리해보세요!\n\n(지난달 수입은 %1$s이었습니다)</string>
+
+    <string name="lv0_dw_184_large">지난달에 기록된 수입이 없습니다.</string>
+    <string name="lv0_dw_184_small">수입을 기록하여 더욱 정확하게\n자산을 관리해보세요!</string>
+
+
+    <string name="lv0_dw_185_large">지난달 주요 수입 항목은\n%1$s(%2$s)입니다.</string>
+    <string name="lv0_dw_185_small">주수입 137.2만원(1회),\n부수입 123.1만원(2회)입니다.</string>
+
+
+    <string name="lv0_dw_186_large">마지막 수입 기록 이후\n%1$s 썼습니다.</string>
+    <string name="lv0_dw_186_small">마지막으로 수입이 있었던 날은\n지난달 %1$s일(%2$s)입니다.\n\n그 날 이후 오늘까지 %3$s\n지출했습니다.</string>
+
+    <string name="lv0_dw_154_large">오늘 순수입은 3.0만원입니다.</string>
+    <string name="lv0_dw_154_small">수입 4만원 (실손보험환급금액),\n지출 1만원 (서울대연구삼성웰스토리)입니다.</string>
+
+    <string name="lv0_dw_155_large">어제 순수입은 3.0만원입니다.</string>
+    <string name="lv0_dw_155_small">수입 4만원 (실손보험환급금액),\n지출 1만원 (서울대연구삼성웰스토리)입니다.</string>
+
+    <string name="lv0_dw_156_large">지난주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_156_small">수입 41.2만원, 지출 0.6만원으로\n순수입이 평소보다 적었습니다. (-12%)</string>
+
+    <string name="lv0_dw_157_large">지난주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_157_small">수입 41.2만원, 지출 0.6만원으로\n순수입은 평소 수준입니다. (-12%)</string>
+
+    <string name="lv0_dw_158_large">지난주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_158_small">수입 41.2만원, 지출 0.6만원으로\n순수입이 평소보다 많았습니다. (+12%)</string>
+
+    <string name="lv0_dw_159_large">지난주 수입 기록이 없습니다.</string>
+    <string name="lv0_dw_159_small">마지막으로 수입이 기록된 날짜는\n3월 13일입니다.</string>
+
+    <string name="lv0_dw_160_large">이번 주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_160_small">수입 41.2만원, 지출 0.6만원으로\n순수입이 평소보다 적었습니다. (-12%)</string>
+
+    <string name="lv0_dw_161_large">이번 주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_161_small">수입 41.2만원, 지출 0.6만원으로\n순수입은 평소 수준입니다. (+12%)</string>
+
+    <string name="lv0_dw_162_large">이번 주 순수입은 40.6만원입니다.</string>
+    <string name="lv0_dw_162_small">수입 41.2만원, 지출 0.6만원으로\n순수입이 평소보다 많았습니다. (+12%)</string>
+
+    <string name="lv0_dw_163_large">이번 주 수입이 아직 기록되지 않았습니다.</string>
+    <string name="lv0_dw_163_small">마지막으로 수입이 기록된 날짜는\n3월 13일입니다.</string>
+
+    <string name="lv0_dw_164_large">최근 들어 기록된 수입이 없습니다.</string>
+    <string name="lv0_dw_164_small">마지막으로 수입이 기록된 날짜는\n3월 13일입니다.</string>
+
+
+    <!--LV0_MONTHLY-->
+    <string name="lv0_monthly_current_month_51_large">이번 달 신용카드 결제금액은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_current_month_51_small">%1$s으로\n%2$d월 총지출은 %3$s 입니다.</string>
+
+    <string name="lv0_monthly_current_month_54_large">이번 달 최대 지출일은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_current_month_54_small">이날 최대 지출 내역은\n%1$s 입니다.</string>
+
+    <string name="lv0_monthly_current_month_56_large">앞으로 남은 총 할부금액은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_current_month_56_small">이번 달 청구 할부내역은 %1$d건으로\n%2$s마지막 할부금 청구월은 %3$s 입니다.</string>
+
+    <string name="lv0_monthly_current_month_57_large">%1$s할부가 이번 달 종료됩니다.</string>
+    <string name="lv0_monthly_current_month_57_large_more">%1$s외 %2$d건의 할부가 이번 달 종료됩니다.</string>
+
+    <string name="lv0_monthly_current_month_57_small">그 외 아직 남은 할부내역으로는\n%1$s</string>
+
+    <string name="lv0_monthly_current_month_135_large">이번 달 할부금은 %1$s 입니다.</string>
+    <string name="lv0_monthly_current_month_135_small">이번 달 청구되는 할부 내역은\n%1$s</string>
+
+    <string name="lv0_monthly_current_month_136_large">모든 할부가 이번 달로 끝납니다.</string>
+    <string name="lv0_monthly_current_month_136_small">다음 달부터 청구되는 할부 내역은 없습니다.</string>
+
+    <string name="lv0_monthly_current_month_76_large_more">지난달보다\n%1$s 많이 쓰고 있습니다.</string>
+    <string name="lv0_monthly_current_month_76_large_less">지난달보다\n%1$s 적게 쓰고 있습니다.</string>
+
+    <string name="lv0_monthly_current_month_76_small">지난달 %1$d일까지 %2$s 썼습니다.\n이번 달은 %3$s 썼습니다.</string>
+
+    <string name="lv0_monthly_current_month_78_large">이번 달은 평소보다\n지출이 많을 것 같습니다.</string>
+    <string name="lv0_monthly_current_month_78_small">이번 달은 유난히 지출이 많은 것 같습니다.\n최근 지출 중 가장 큰 지출은\n%1$s 입니다.</string>
+
+    <string name="lv0_monthly_current_month_102_large">먹고 마시는데 %1$s 썼습니다.</string>
+    <string name="lv0_monthly_current_month_102_small_more">이번 달 지출의 %1$s를 차지하며\n지난달 같은 일자 대비 %2$s 증가했습니다\n\n항목별로는 %3$s</string>
+    <string name="lv0_monthly_current_month_102_small_less">이번 달 지출의 %1$s를 차지하며\n지난달 같은 일자 대비 %2$s 감소했습니다\n\n항목별로는 %3$s</string>
+
+    <string name="lv0_monthly_current_month_103_large_more">어느새 월말이 다가왔습니다\n이번 달은 평소보다 %1$s 많이 쓴 편입니다.</string>
+    <string name="lv0_monthly_current_month_103_large_less">어느새 월말이 다가왔습니다\n이번 달은 평소보다 %1$s 적게 쓴 편입니다.</string>
+    <string name="lv0_monthly_current_month_103_small_more">이번 달 결제는 %1$d건,\n1회 평균 지출 %2$s,\n총 지출 %3$s입니다.\n\n평소보다 지출이 %4$s 많습니다.</string>
+    <string name="lv0_monthly_current_month_103_small_less">이번 달 결제는 %1$d건,\n1회 평균 지출 %2$s,\n총 지출 %3$s입니다.\n\n평소보다 지출이 %4$s 적습니다.</string>
+
+    <string name="lv0_monthly_current_month_53_large">이번 달에는 지출이 없습니다</string>
+    <string name="lv0_monthly_current_month_53_small">아직 기록된 지출이 없습니다\n직접입력 기능을 통해 기록을 시작하고\n자신의 소비를 돌아보세요</string>
+
+    <string name="lv0_monthly_last_month_52_large">지난달 신용카드 결제금액은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_last_month_52_small">%1$s으로\n%2$d월 총지출은 %3$s 입니다.</string>
+
+
+    <string name="lv0_monthly_last_month_55_large">지난달 최대 지출일은\n%1$s입니다.</string>
+    <string name="lv0_monthly_last_month_55_small">이날 최대 지출 내역은\n%1$s 입니다.</string>
+
+    <string name="lv0_monthly_last_month_77_large">지난달 %1$s 썼습니다.</string>
+    <string name="lv0_monthly_last_month_77_small">주로 지출한 항목은\n%1$s입니다.</string>
+
+    <string name="lv0_monthly_three_month_49_large">지난 3개월 신용카드 결제 금액은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_three_month_49_small">%1$s으로\n%2$s 총지출은 %3$s 입니다.</string>
+
+    <string name="lv0_monthly_three_month_75_large">지난 3개월,\n%1$s 썼습니다.</string>
+    <string name="lv0_monthly_three_month_75_small">%1$s 사용하여\n\n한 달 평균 지출은 %2$s 입니다.</string>
+
+    <string name="lv0_monthly_three_month_80_large">한 달 평균 지출은\n%1$s입니다.</string>
+    <string name="lv0_monthly_three_month_80_small">항목별로 한 달에 쓰는 돈은\n%1$s 입니다.</string>
+
+    <string name="lv0_monthly_three_month_85_large">최근 지출 중 규모가 가장 컸던 것은\n%1$s 입니다.</string>
+    <string name="lv0_monthly_three_month_85_small">최근 3개월간 지출이 가장 컸던 것은\n%1$s 입니다.</string>
+
+
+    <string name="lv0_monthly_year_month_130_large">작년 연말 지출은\n%1$s이었습니다.</string>
+    <string name="lv0_monthly_year_month_130_small">어느새 인사말이 "연말 모임 때 보자"로 \n바뀌었습니다!\n\n작년 연말에 쓴 %1$s 중\n먹고 마시는데 %2$s 썼습니다.\n올해는 어떨까요?\n\n*(%3$d년 12월 1일 12월 31일사이 기준)\n**(먹고 마신 비용 = 술/외식/카페 기준)</string>
+
+    <string name="lv0_monthly_year_month_129_large">작년 크리스마스에\n%1$s 지출했습니다.</string>
+    <string name="lv0_monthly_year_month_129_small">작년 크리스마스에 주요 지출항목은\n\n%1$s\n(%2$d년 12월 24일~ 12월 26일 사이 기준)</string>
+
+    <string name="lv0_monthly_year_month_50_large">올해 신용카드 결제금액은\n%1$s입니다.</string>
+    <string name="lv0_monthly_year_month_50_small">%1$s으로\n올해 총지출은 %2$s 입니다.</string>
+
+    <string name="lv0_monthly_full_moon_127_large">한 달에 한 번, 보름달 뜨는 날은\n0원 데이로 해보시는 건 어떨까요?</string>
+    <string name="lv0_monthly_full_moon_127_small">동그란 보름달을 기념하여,\n매달 하루는 지출 O원에 도전해보세요!\n\n이번 달 보름달은 15일에 뜹니다. </string>
+
+
+    <!--LV0_WEEKLY-->
+    <string name="lv0_weekly_last_60_large">지난주에 %1$s 썼습니다.</string>
+    <string name="lv0_weekly_last_60_small">지난주 예산은 %1$s 이었습니다.\n\n월간 예산을 달성하기 위한\n이번 주 예산은 %2$s 입니다.</string>
+
+    <string name="lv0_weekly_last_61_large">지난주, 평소보다\n%1$s많이 썼습니다.</string>
+    <string name="lv0_weekly_last_61_small">지난 12주 동안\n평균적으로 1주일에 %1$s 썼습니다.\n지난주에는 %2$s 썼습니다.</string>
+
+    <string name="lv0_weekly_last_143_large">지난주 지출은 %1$s 입니다.</string>
+    <string name="lv0_weekly_last_143_small">지난 12주 동안\n주간 평균 지출은 %1$s 입니다.</string>
+
+
+    <string name="lv0_weekly_last_144_large">지난주 지출은 %1$s 입니다.</string>
+    <string name="lv0_weekly_last_144_small">지난주 예산은 %1$s이었습니다.\n이번 주는 지금까지 %2$s 썼습니다.</string>
+
+
+    <string name="lv0_weekly_current_58_large">남은 한 주간\n%1$s 이하로 써볼까요?</string>
+    <string name="lv0_weekly_current_58_small">이번 주 예산은 %1$s입니다.\n지금까지 %2$s 썼습니다.\n\n주말까지 %3$s 이하로 쓰시면 됩니다.</string>
+
+    <string name="lv0_weekly_current_59_large">주간 권장 지출의 %1$s를 썼습니다.</string>
+    <string name="lv0_weekly_current_59_small">이번 주 예산은 %1$s 입니다.\n지금까지 %2$s 썼습니다.</string>
+
+    <string name="lv0_weekly_current_145_large">이번 주 지출은 %1$s 입니다.</string>
+    <string name="lv0_weekly_current_145_small">지난 12주 동안\n주간 평균 지출은 %1$s입니다.</string>
+
+    <string name="lv0_weekly_current_91_large">어제 지출이 많아요</string>
+    <string name="lv0_weekly_current_91_small">어제 지출은 %1$s이며, 주요 지출처는\n%2$s 입니다.\n지난 12주 동안 하루 평균 지출은 %3$s 입니다.</string>
+
+
+    <string name="lv0_weekly_yesterday_92_large">어제 지출 %1$s</string>
+    <string name="lv0_weekly_yesterday_92_small">%1$s 누적 지출 %2$s 입니다.\n\n지난 12주 동안 주간 평균 지출은 %3$s 입니다. </string>
+
+
+    <!--LV0_CATEGORY-->
+    <string name="lv0_common_category_current_month_137_large">이번 달 %1$s 지출은\n%2$s입니다.</string>
+    <string name="lv0_common_category_current_month_137_small">주요 지출처는\n%1$s입니다.</string>
+
+    <string name="lv0_common_category_current_month_138_large">이번 달 %1$s 지출은\n%2$s입니다.</string>
+    <string name="lv0_common_category_current_month_138_small">지출의 주요 항목은\n%1$s입니다.</string>
+
+    <string name="lv0_common_category_last_month_23_large">지난달 %1$s 지출은\n%2$s입니다.</string>
+    <string name="lv0_common_category_last_month_23_small">주요 지출처는\n%1$s입니다.</string>
+
+
+    <string name="lv0_common_category_last_month_24_large">지난달 %1$s 지출은\n%2$s입니다.</string>
+    <string name="lv0_common_category_last_month_24_small">지출의 주요 항목은\n%1$s입니다. </string>
+
+
+    <string name="lv0_common_category_three_month_95_large">지난 3개월 동안\n%1$s</string>
+    <string name="lv0_common_category_three_month_95_small">지난 3개월 동안 %1$s에서\n%2$s 결제가 가장 많았습니다.\n\n총%3$s 결제했고, %4$s 썼습니다.</string>
+
+    <!--LV0_ALCOHOL-->
+    <string name="lv0_alcohol_current_month_93_large">속은 괜찮으신가요?</string>
+    <string name="lv0_alcohol_current_month_93_small">어제 술 지출은 %1$s입니다.\n\n지난 3개월 동안 술 지출은 %2$s입니다.</string>
+
+    <string name="lv0_alcohol_last_month_31_large">지난달, 술값이\n%1$s나왔습니다.</string>
+    <string name="lv0_alcohol_last_month_31_small">%1$s으로\n\n지난 3개월 동안 쓴 술값은 %2$s입니다.</string>
+
+    <string name="lv0_alcohol_last_month_141_large">지난달 나의 음주유형은\n%1$s입니다.</string>
+    <string name="lv0_alcohol_last_month_141_small">지난달 술집 결제 건수는 %1$s이며\n%2$s을 지출했습니다.\n\n지난 3개월 동안 술 지출은 %3$s입니다.</string>
+
+    <string name="alcohol_type_0">비음주</string>
+    <string name="alcohol_type_2">건강 중시형</string>
+    <string name="alcohol_type_5">스트레스 해소</string>
+    <string name="alcohol_type_8">애주가형</string>
+    <string name="alcohol_type_10">밥보다 술</string>
+
+
+    <!--LV0_BEAUTY-->
+    <string name="lv0_beauty_last_date_11_large">네일케어 받은 지 %1$d일 되었습니다.</string>
+    <string name="lv0_beauty_last_date_11_small">마지막으로 관리받은 날은\n%1$s입니다.\n\n지난 3개월 동안 네일케어를 총 %2$s번 받았습니다.\n기준:%3$s</string>
+
+    <string name="lv0_beauty_last_date_28_large">마지막으로 머리 자른 지\n%1$d일 되었습니다.</string>
+    <string name="lv0_beauty_last_date_28_small">마지막으로 머리 한 날은\n%1$s입니다.\n\n%2$s일에 1번 머리를 합니다.\n기준:%3$s</string>
+
+
+    <!--LV0_TRAVEL-->
+    <string name="lv0_travel_year_132_large">벌써 그 여행이 1년 전이랍니다.</string>
+    <string name="lv0_travel_year_132_small">%1$s,\n\"%2$s\" %3$s.\n\n그로부터 거의 1년이 지났습니다.</string>
+
+
+    <!--LV0_CAFE-->
+    <string name="lv0_cafe_current_month_139_large">이번 달 커피 지출은\n%1$s 입니다.</string>
+    <string name="lv0_cafe_current_month_139_small">이번 달 커피 지출은 총 %1$s회 였으며,\n커피값이 가장 많이 나간 날은\n%2$s 입니다.</string>
+
+    <string name="lv0_cafe_last_month_30_large">지난달 커피 지출은\n%1$s 입니다.</string>
+    <string name="lv0_cafe_last_month_30_small">%1$s으로\n\n지난 3개월 동안 커피 지출은 %2$s 입니다.</string>
+
+    <string name="lv0_cafe_three_month_25_large">일주일에 커피 %1$s잔</string>
+    <string name="lv0_cafe_three_month_25_small">지난 3개월간 커피 지출은 %1$s건입니다.\n이는 %2$s 평균과 유사한 수준입니다.\n(%3$s)\n\n직접 내려 마신 커피도 기록해서\n더 정확하게 관리해 보세요!</string>
+
+    <string name="lv0_cafe_three_month_26_large">모닝 커피를\n직접 내려 마셨다면&#8230;</string>
+    <string name="lv0_cafe_three_month_26_small">%1$s 정도 절약할 수 있습니다.\n\n지난 3개월 커피 지출 %2$s 중 %3$s이\n모닝커피 지출입니다.</string>
+
+    <string name="lv0_cafe_three_month_96_large">내가 선호하는 커피전문점 1순위:%1$s!</string>
+    <string name="lv0_cafe_three_month_96_small">지난 3개월 동안 가장 자주 간 카페는 %1$s</string>
+
+
+    <string name="coffee_country_type_Norway">노르웨이</string>
+    <string name="coffee_country_type_Swiss">스위스</string>
+    <string name="coffee_country_type_Canada">캐나다</string>
+    <string name="coffee_country_type_Brazil">브라질</string>
+    <string name="coffee_country_type_USA">미국</string>
+    <string name="coffee_country_type_Japan">일본</string>
+    <string name="coffee_country_type_Korea">한국</string>
+    <string name="coffee_country_type_Russia">러시아</string>
+    <string name="coffee_country_type_Thailand">태국</string>
+    <string name="coffee_country_type_Egypt">이집트</string>
+    <string name="coffee_country_type_India">인도</string>
+
+    <string name="coffee_cnt_type_Norway">25잔/1주일</string>
+    <string name="coffee_cnt_type_Swiss">22잔/1주일</string>
+    <string name="coffee_cnt_type_Canada">19잔/1주일</string>
+    <string name="coffee_cnt_type_Brazil">16잔/1주일</string>
+    <string name="coffee_cnt_type_USA">13잔/1주일</string>
+    <string name="coffee_cnt_type_Japan">11잔/1주일</string>
+    <string name="coffee_cnt_type_Korea">6잔/1주일</string>
+    <string name="coffee_cnt_type_Russia">5잔/1주일</string>
+    <string name="coffee_cnt_type_Thailand">3잔/1주일</string>
+    <string name="coffee_cnt_type_Egypt">2잔/1주일</string>
+    <string name="coffee_cnt_type_India">1잔 이하/1주일</string>
+
+    <!--LV0_CULTURE-->
+    <string name="lv0_culture_last_date_12_large">영화 본 지 %1$s일 지났습니다.</string>
+    <string name="lv0_culture_last_date_12_small">마지막으로 영화 본 날은\n%1$s입니다.\n\n지난 3개월 동안 영화를 %2$s번 봤습니다.\n기준:%3$s</string>
+
+    <string name="lv0_culture_three_month_105_large">지난 3개월간 도서구입비로\n%1$s을 지출했습니다.</string>
+    <string name="lv0_culture_three_month_105_small">이는 2014년 기준 가구당 월평균 도서구입비보다\n%1$s 더 많습니다.\n책에는 아끼지 않는 당신, 멋지네요!</string>
+
+    <!--LV0_FOOD-->
+    <string name="lv0_food_three_month_13_large">지난 3개월 동안\n총 %1$s회 외식했습니다.</string>
+    <string name="lv0_food_three_month_13_small">이 중 패스트푸드는 %1$s회 (%2$s)입니다.\n%3$s</string>
+
+    <string name="lv0_food_three_month_82_large">지난 3개월 동안 %1$s에서\n%2$s 썼습니다.</string>
+    <string name="lv0_food_three_month_82_small">지난 3개월 동안 가장 돈을 많이 쓴 곳은\n%1$s입니다.\n총 %2$s 썼으며,%3$s회 방문하셨습니다.</string>
+
+
+    <string name="lv0_food_three_month_83_large">지난 3개월 동안 %1$s에서\n%2$s회 방문하셨습니다.</string>
+    <string name="lv0_food_three_month_83_small">지난 3개월 동안 가장 자주 간 곳은\n%1$s입니다.\n총 %2$s회 방문했고, %3$s 썼습니다.</string>
+
+    <string name="lv0_food_year_29_large">나의 패스트푸드 TOP은\n%1$s!</string>
+    <string name="lv0_food_year_29_small">%1$s\n(지난 12개월 기준)</string>
+
+    <!--LV0_HEALTH_CARE-->
+    <string name="lv0_health_care_last_date_106_large">늘 건강하시기 바랍니다.</string>
+    <string name="lv0_health_care_last_date_106_small">의료비가 발생한 지 %1$s일 지났습니다.\n(이전 의료일:%2$s)\n\n아프지 말고 건강 챙기세요!</string>
+
+    <!--LV0_MART-->
+    <string name="lv0_mart_last_month_32_large">지난달, 마트에서\n%1$s 지출했습니다.</string>
+    <string name="lv0_mart_last_month_32_small">%1$s으로\n\n3개월 동안 마트에서 쓴 돈은 %2$s입니다.</string>
+
+    <string name="lv0_mart_three_month_33_large">지난달, 편의점에서\n%1$s 지출했습니다.</string>
+    <string name="lv0_mart_three_month_33_small">%1$s으로\n\n편의점에서 3개월 동안 %2$s 지출했습니다.</string>
+
+
+    <!--LV0_TRANSPORTATION-->
+    <string name="lv0_transport_current_month_15_large">이번 달\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_current_month_15_small">%1$s총 %2$s 주유했습니다.\n\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_current_month_17_large">이번 달\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_current_month_17_small">%1$s총 %2$s 주유했습니다.\n\n(출처 : 한국석유공사 오피넷)</string>
+
+
+    <string name="lv0_transport_last_month_16_large">지난달\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_last_month_16_small">%1$s총 %2$s 주유했습니다.\n\n(출처 : 한국석유공사 오피넷)</string>
+
+
+    <string name="lv0_transport_last_month_18_large">지난달\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_last_month_18_small">%1$s총 %2$s 주유했습니다.\n\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_last_month_21_large">지난달, 리터당\n%1$s에 주유했습니다.</string>
+    <string name="lv0_transport_last_month_21_small">주유한 일자의 %1$s 평균 유가는 %2$s (%3$s),\n전국은 %4$s (%5$s) 이었습니다.\n\n(출처 : 한국석유공사 오피넷,%6$s 기준)</string>
+
+    <string name="lv0_transport_last_month_34_large">지난달 택시비는\n%1$s입니다.</string>
+    <string name="lv0_transport_last_month_34_small">%1$s으로\n\n3개월 동안 택시비는 %2$s입니다.</string>
+
+    <string name="lv0_transport_last_month_90_large">지난달 주행거리\n%1$skm</string>
+    <string name="lv0_transport_last_month_90_small">%1$s3개월 동안 자동차 주행거리는 %2$skm입니다.\n(평균연비 10.6km 기준)</string>
+
+    <string name="lv0_transport_last_date_14_large">마지막으로 주유한 지\n%1$s일 되었습니다.</string>
+    <string name="lv0_transport_last_date_14_small">마지막으로 주유한 곳은\n%1$s(%2$s)입니다.\n주유 금액은 %3$s, 유가는 %4$s입니다.\n\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_three_month_19_large">3개월 동안\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_three_month_19_small">%1$s일에 1번,\n%2$s(%3$sL)씩 주유했습니다.\n%4$s\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_three_month_20_large">지난 3개월, 리터당\n%1$s에 주유했습니다.</string>
+    <string name="lv0_transport_three_month_20_small">같은기간 %1$s 평균 유가는 %2$s (%3$s),\n전국은 %4$s (%5$s) 이었습니다.\n%6$s\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_three_month_22_large">3개월 동안\n%1$s 주유했습니다.</string>
+    <string name="lv0_transport_three_month_22_small">평균적으로 한달에 %1$s 주유했으며,\n유가는 %2$s이었습니다.\n%3$s\n(출처 : 한국석유공사 오피넷)</string>
+
+    <string name="lv0_transport_three_month_27_large">3개월 동안\n늦잠의 가격은%1$s!</string>
+    <string name="lv0_transport_three_month_27_small">%1$s 택시비는 %2$s입니다.\n이 중 오전에 탄 택시비는 %3$s입니다.</string>
+
+    <string name="lv0_transport_year_month_81_large">지난 1년간\n늦잠의 가격은 %1$s!</string>
+    <string name="lv0_transport_year_month_81_small">지난 1년간 사용한 택시비는 %1$s입니다.\n이 중 오전에 탄 택시비는 %2$s입니다.</string>
+
+
+    <!--LV1_TUTORIAL-->
+    <string name="lv1_tutorial_1">카드사/은행에서 온 문자를 분석하여 자동으로 지출을 관리해주는 서비스입니다.</string>
+    <string name="lv1_tutorial_2">클립은 개인 정보를 요구하지 않습니다. </string>
+    <string name="lv1_tutorial_3">웹서비스에 로그인하거나, 휴대폰 교체 시 이어서 사용하기 위해 이메일 주소가 필요합니다.</string>
+    <string name="lv1_tutorial_4">지출 내역은 자동으로 클립이 분류합니다. 하지만 필요시 사용자가 직접 분류를 수정할 수 있습니다.</string>
+    <string name="lv1_tutorial_5">왼쪽 위의 메뉴를 터치하면 지출 요약과 여러 메뉴를 볼 수 있습니다.</string>
+    <string name="lv1_tutorial_6">수입/지출 내역은 수단, 날짜, 분류별로 볼 수 있습니다. 검색 결과도 이 기준으로 볼 수 있습니다.</string>
+    <string name="lv1_tutorial_7">예산은 한 달에 쓸 금액입니다. 해당 금액에 맞춰 지출할 수 있도록 클립이 도와드리겠습니다.</string>
+    <string name="lv1_tutorial_8">캘린더를 연동하면 수입/지출 내역을 캘린더에 기록합니다. 연동 해제 시 캘린더는 삭제됩니다.</string>
+    <string name="lv1_tutorial_9">따로 표시해두고 싶은 내역이 있으신가요? 내역에 태그를 추가하시면 태그별 모아보기 및 분석 제외가 가능합니다.</string>
+    <string name="lv1_tutorial_10">한 달 예산을 초과할 때 알림을 받도록 설정할 수 있습니다.</string>
+    <string name="lv1_tutorial_11">인식되지 않는 문자가 있으신가요? 설정에서 문자 인식요청을 해 주시면 바로 처리해드리겠습니다.</string>
+    <string name="lv1_tutorial_12">월 시작일을 지정하거나, 할부적용도 설정할 수 있습니다.</string>
+
+    <!--LV1_BUDGET-->
+    <string name="lv1_budget_1">%1$s 예상지출</string>
+    <string name="lv1_budget_2">이번 달 예산은 %1$s 입니다.</string>
+    <string name="lv1_budget_3">이번 달 예산에 맞추기 위해서는 하루에 평균 %1$s씩 써야 합니다. 현재 %2$s씩 지출하고 있습니다.</string>
+
+    <string name="lv1_budget_4">%1$d일</string>
+    <string name="lv1_budget_5">이미 %1$d월 %2$d일에 예산을 초과했습니다</string>
+
+    <string name="lv1_budget_6">지금처럼만 한다면 이번 달 지출은 예산을 초과하지 않을 것입니다. 이번 달 예상 지출은 %1$s입니다.</string>
+    <string name="lv1_budget_7">지금처럼 지출하면 %1$d월 %2$d일에 예산을 초과할 것으로 보입니다. 이번 달 예상 지출은 %3$s입니다.</string>
+
+    <string name="lv1_budget_8">남은 돈: %1$s</string>
+
+    <!--LV1_BUDGET-->
+    <string name="lv1_budget_1_1_title">My Budget Analysis</string>
+    <string name="lv1_budget_1_2_title">예산 대비 지출 분석</string>
+    <string name="lv1_budget_1_3_title">하루 권장 지출</string>
+    <string name="lv1_budget_1_4_title">현재 하루 지출</string>
+
+    <string name="lv1_budget_2_1_title">Budget Analysis</string>
+    <string name="lv1_budget_2_2_title">예산 분석</string>
+    <string name="lv1_budget_2_3_title">예상 예산초과일</string>
+
+    <string name="lv1_budget_3_1_title">이번 달 예산 소진율</string>
+    <string name="lv1_budget_3_2_title">월평균\n예산 소진율</string>
+    <string name="lv1_budget_3_3_title">월별 예산 소진율</string>
+    <string name="percent">%</string>
+
+    <!--LV1_MONTHLY_1-->
+    <string name="lv1_monthly_1_1_title">Key Numbers</string>
+    <string name="lv1_monthly_1_2_title">주요 정보</string>
+    <string name="lv1_monthly_1_3_title">일별 누적 지출</string>
+    <string name="lv1_monthly_1_4_title">결제 건수</string>
+    <string name="lv1_monthly_1_5_title">건별 평균 결제액</string>
+
+    <string name="lv1_monthly_2_1_title">Monthly Analysis</string>
+    <string name="lv1_monthly_2_2_title">월별 분석</string>
+    <string name="lv1_monthly_2_3_title">월별 지출</string>
+    <string name="lv1_monthly_2_4_title">3개월 평균 지출</string>
+    <string name="lv1_monthly_2_5_title">6개월 평균 지출</string>
+    <string name="lv1_monthly_2_6_title">12개월 평균 지출</string>
+
+    <string name="lv1_monthly_3_1_title">Daily Analysis</string>
+    <string name="lv1_monthly_3_2_title">일별 분석</string>
+    <string name="lv1_monthly_3_3_title">최대 지출일</string>
+    <string name="lv1_monthly_3_4_title">지출 내역</string>
+
+    <string name="lv1_monthly_4_1_title">일평균 지출</string>
+    <string name="lv1_monthly_4_2_title">일별 지출</string>
+    <string name="lv1_monthly_4_3_title">최대 지출 요일</string>
+
+    <string name="lv1_monthly_5_1_title">최소 지출 요일</string>
+    <string name="lv1_monthly_5_2_title">요일별 지출</string>
+
+    <string name="lv1_monthly_6_1_title">Analysis by The Time</string>
+    <string name="lv1_monthly_6_2_title">시간대별 분석</string>
+    <string name="lv1_monthly_6_3_title">최대 지출 시간</string>
+    <string name="lv1_monthly_6_4_title">시간대별 지출</string>
+    <string name="lv1_monthly_6_5_title">HOURS</string>
+    <string name="lv1_monthly_6_6_title">MINUTES</string>
+
+    <string name="lv1_monthly_7_1_title">Analysis of Category</string>
+    <string name="lv1_monthly_7_2_title">카테고리별 분석</string>
+    <string name="lv1_monthly_7_3_title">최대지출 카테고리</string>
+
+    <string name="lv1_monthly_8_1_title">카테고리별 지출</string>
+
+    <string name="lv1_monthly_9_1_title">Analysis of Accounts</string>
+    <string name="lv1_monthly_9_2_title">수단별 분석</string>
+    <string name="lv1_monthly_9_3_title">카드별 지출</string>
+
+    <string name="lv1_monthly_10_1_title">지출 금액 Top3</string>
+    <string name="lv1_monthly_10_2_title">가장 많이 지출한 곳을 확인해보세요.</string>
+    <string name="lv1_monthly_10_3_title">지출 건수 Top3</string>
+
+    <string name="lv1_monthly_10_4_title">1</string>
+    <string name="lv1_monthly_10_5_title">2</string>
+    <string name="lv1_monthly_10_6_title">3</string>
+
+    <string name="lv1_monthly_11_1_title">Accounts</string>
+    <string name="lv1_monthly_11_2_title">지출 수단 분석</string>
+    <string name="lv1_monthly_11_3_title">%1$d월 지출 수단</string>
+    <string name="lv1_monthly_11_4_title">지출 수단별 구성 추이</string>
+    <string name="lv1_monthly_11_5_title">위의 금액은 문자/직접 입력내용 등을 기반으로 한\n추정 금액입니다. 따라서 실제 금액과는 상이할 수 있습니다.\n정확한 금액은 &lt;font color=\"#587CB2\"&gt;&lt;u&gt;&lt;a href="https://www.hometax.go.kr"&gt;홈택스&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;에서 확인 가능합니다.</string>
+
+    <string name="lv1_monthly_11_6_title">%1$d년 신용카드</string>
+    <string name="lv1_monthly_11_7_title">%1$d년 체크/현금</string>
+    <string name="lv1_monthly_11_8_title">%1$d년 계좌</string>
+
+
+    <string name="lv1_monthly_adapter_1">%1$s 총지출액</string>
+    <string name="lv1_monthly_adapter_2">%1$s건</string>
+
+    <string name="lv1_monthly_adapter_3">%1$d일</string>
+    <string name="lv1_monthly_adapter_4">%1$s요일</string>
+
+    <string name="lv1_monthly_adapter_5">지출은 %1$s시~%2$s시 사이에 가장 많이 발생합니다.\n총지출 %3$s 중 이 시간대 지출금액은 %4$s입니다.</string>
+    <string name="lv1_monthly_adapter_6">%1$s 최대 지출 카테고리는 %2$s이며 금액은 %3$s입니다.\n</string>
+    <string name="lv1_monthly_adapter_7">%1$d위는 %2$s이며 금액은 %3$s입니다.\n</string>
+
+
+    <string name="lv1_chart_avg_of_12">평균</string>
+    <string name="lv1_chart_monthly">월별</string>
+    <string name="lv1_chart_avg_of_daily">평균</string>
+    <string name="lv1_chart_daily">일별</string>
+    <string name="lv1_chart_avg_of_dayofweek">평균</string>
+    <string name="lv1_chart_dayofweek_three_month">지난 3개월</string>
+    <string name="lv1_chart_dayofweek_current_month">이번 달</string>
+    <string name="lv1_chart_time">시간별</string>
+    <string name="lv1_chart_category">카테고리별</string>
+
+
+    <!--LV1_WEEKLY-->
+    <string name="lv1_weekly_1_1_title">Weekly Analysis</string>
+    <string name="lv1_weekly_1_2_title">주간 지출 분석</string>
+    <string name="lv1_weekly_1_4_title">지출 세부 분류</string>
+
+    <string name="lv1_weekly_2_1_title">주간 지출 추이</string>
+    <string name="lv1_weekly_2_2_title">지난 3주\n주별 평균 지출</string>
+    <string name="lv1_weekly_2_3_title">지난 12주\n주별 평균 지출</string>
+    <string name="lv1_weekly_2_4_title">3</string>
+    <string name="lv1_weekly_2_5_title">12</string>
+
+    <string name="lv1_weekly_3_1_title">Weekly Analysis - Details</string>
+    <string name="lv1_weekly_3_2_title">주간 지출 상세 분석</string>
+
+    <string name="lv1_weekly_4_1_title">요일별 최대지출 항목</string>
+    <string name="lv1_weekly_4_2_title">이번 주</string>
+    <string name="lv1_weekly_4_3_title">지난주</string>
+
+    <string name="lv1_weekly_5_1_title">지출 금액 Top10</string>
+    <string name="lv1_weekly_adapter_1">%1$d월 %2$d번째 주</string>
+    <string name="lv1_weekly_adapter_3">%1$s\n지난 12주 대비 지난 3주동안의 일주일 평균지출은 %2$s했습니다.</string>
+    <string name="lv1_weekly_adapter_4">지난 12주간 %1$s요일에 가장 지출이 많았습니다.\n이번 주는 %2$s요일에 지출이 가장 많습니다.</string>
+    <string name="lv1_weekly_adapter_5">이번 주 지출이 가장 많은 항목은 %1$s으로\n%2$s입니다. 지난주에는 %3$s에서 %4$s 지출했습니다.</string>
+
+    <string name="lv1_weekly_chart_12_weeks">12주 평균</string>
+
+    <!--LV1_COMMON_CATEGORY-->
+    <string name="lv1_common_category_1_1_title">Key Numbers</string>
+    <string name="lv1_common_category_1_2_title">이번 달 분석</string>
+    <string name="lv1_common_category_1_3_title">이번 달 누적 지출 추이</string>
+
+    <string name="lv1_common_category_2_1_title">최근 지출 내역</string>
+    <string name="lv1_common_category_2_2_title">(오른쪽 위의 아이콘을 누르면 자세히 볼 수 있습니다.)</string>
+    <string name="lv1_common_category_2_3_title">이번 달 최대지출일</string>
+
+    <string name="lv1_common_category_3_1_title">Monthly Analysis</string>
+    <string name="lv1_common_category_3_2_title">월별 분석</string>
+    <string name="lv1_common_category_3_3_title">지난 3개월 누적 지출</string>
+    <string name="lv1_common_category_3_4_title">지난 12개월 누적 지출</string>
+    <string name="lv1_common_category_3_5_title">주요 지출처</string>
+    <string name="lv1_common_category_3_6_title">지난 3개월 동안 어디에 돈을 많이 썼을까요?</string>
+
+    <string name="lv1_common_category_4_1_title">월별 지출</string>
+    <string name="lv1_common_category_4_2_title">지출 세부 분류</string>
+
+    <string name="lv1_common_category_5_1_title">Weekly Analysis</string>
+    <string name="lv1_common_category_5_2_title">주별 분석</string>
+    <string name="lv1_common_category_5_3_title">1주일 평균 지출 빈도</string>
+    <string name="lv1_common_category_5_4_title">주간 지출 추이</string>
+
+    <string name="lv1_common_category_6_1_title">Daily Analysis</string>
+    <string name="lv1_common_category_6_2_title">일별 분석</string>
+    <string name="lv1_common_category_6_3_title">최대 지출 요일</string>
+    <string name="lv1_common_category_6_4_title">요일별 지출</string>
+    <string name="lv1_common_category_adapter_5_1">%1$s회</string>
+
+    <!--LV1_DEPOSIT_WITHDRAW-->
+    <string name="lv1_deposit_withdraw_1_1_title">Monthly Balance</string>
+    <string name="lv1_deposit_withdraw_1_2_title">월별 분석</string>
+    <string name="lv1_deposit_withdraw_1_3_title">%1$d월 순수입</string>
+    <string name="lv1_deposit_withdraw_1_4_title">수입</string>
+    <string name="lv1_deposit_withdraw_1_5_title">지출</string>
+    <string name="lv1_deposit_withdraw_1_6_title">일별 누적 순수입</string>
+
+    <string name="lv1_deposit_withdraw_2_1_title">Income Analysis</string>
+    <string name="lv1_deposit_withdraw_2_2_title">수입 분석</string>
+    <string name="lv1_deposit_withdraw_2_3_title">%1$d월 수입</string>
+    <string name="lv1_deposit_withdraw_2_4_title">3개월 누적 수입</string>
+    <string name="lv1_deposit_withdraw_2_5_title">12개월 누적 수입</string>
+    <string name="lv1_deposit_withdraw_2_6_title">수입 구성</string>
+
+
+    <string name="lv1_deposit_withdraw_3_1_title">12개월 수입 구성 추이</string>
+    <string name="lv1_deposit_withdraw_3_2_title">지난 12개월\n최대 수입 항목</string>
+    <string name="lv1_deposit_withdraw_3_3_title">최근 수입 내역</string>
+    <string name="lv1_deposit_withdraw_3_4_title">최근 수입 내역을 확인하세요.</string>
+
+    <string name="lv1_deposit_withdraw_4_1_title">Expense Analysis</string>
+    <string name="lv1_deposit_withdraw_4_2_title">지출 분석</string>
+    <string name="lv1_deposit_withdraw_4_3_title">%1$d월 지출</string>
+    <string name="lv1_deposit_withdraw_4_4_title">3개월 누적 지출</string>
+    <string name="lv1_deposit_withdraw_4_5_title">12개월 누적 지출</string>
+    <string name="lv1_deposit_withdraw_4_6_title">지출 구성</string>
+
+    <string name="lv1_deposit_withdraw_5_1_title">12개월 지출 구성 추이</string>
+    <string name="lv1_deposit_withdraw_5_2_title">12개월 최대 항목</string>
+    <string name="lv1_deposit_withdraw_5_3_title">최근 지출 내역</string>
+    <string name="lv1_deposit_withdraw_5_4_title">최근 지출 내역을 확인하세요.</string>
+
+
+    <string name="lv1_deposit_withdraw_6_1_title">Yearly Balance</string>
+    <string name="lv1_deposit_withdraw_6_2_title">연간 분석</string>
+    <string name="lv1_deposit_withdraw_6_3_title">%1$d년 누적 수입</string>
+    <string name="lv1_deposit_withdraw_6_4_title">연간 누적 수입</string>
+    <string name="lv1_deposit_withdraw_6_5_title">연간 누적 지출</string>
+    <string name="lv1_deposit_withdraw_6_6_title">연간 수입 지출 추이</string>
+
+
+    <string name="lv1_deposit_withdraw_7_1_title">월별 누적 순수입</string>
+    <string name="lv1_deposit_withdraw_7_2_title">월 순익 vs 누적 순익</string>
+    <string name="lv1_deposit_withdraw_7_3_title">수입이 가장 많은 달</string>
+    <string name="lv1_deposit_withdraw_7_4_title">지출이 가장 많은 달</string>
+    <string name="lv1_deposit_withdraw_7_5_title">%1$d년 월평균 순수입</string>
+
+    <string name="lv1_deposit_withdraw_7_6_title">월 순익</string>
+    <string name="lv1_deposit_withdraw_7_7_title">누적 순익</string>
+
+    <string name="tenqube">TENQUBE</string>
+
+    <!--Lv2Activity-->
+    <string name="title_activity_lv2">수입/지출 내역</string>
+    <string name="lv2_tab_card">카드별</string>
+    <string name="lv2_tab_date">날짜별</string>
+    <string name="lv2_tab_category">항목별</string>
+    <string name="lv2_tab_dw">입출별</string>
+
+    <string name="lv2_usd">해외</string>
+    <string name="lv2_installment">할부</string>
+    <string name="lv2_future">미래</string>
+    <string name="lv2_forecast_tran">예정 내역</string>
+    <string name="lv2_origin_tran">수입/지출</string>
+    <string name="lv2_except_tran">제외 내역</string>
+    <string name="lv2_withdraw_tran">지출 내역</string>
+    <string name="lv2_deposit_tran">수입 내역</string>
+    <string name="lv2_menu_title">%1$d개 선택됨</string>
+    <string name="lv2_menu_tag">태그</string>
+    <string name="lv2_menu_hash_tag">태그</string>
+    <string name="lv2_menu_delete">삭제</string>
+    <string name="lv2_hash_tag_msg">내역을 선택해주세요.</string>
+
+    <string name="card_menu_disconnect">연결 해제</string>
+
+    <!--Lv2DWActivity-->
+    <string name="title_activity_lv2_dw">입출금 내역</string>
+    <string name="lv2_dw_tab_bank">계좌별</string>
+    <string name="lv2_dw_tab_date">날짜별</string>
+    <string name="lv2_dw_tab_card_type">입출금별</string>
+
+    <!--Dialog-->
+    <string name="dialog_enter">확인</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_exit">종료</string>
+    <string name="dialog_reload_title">기존 SMS를 가져오시겠습니까?</string>
+
+    <string name="home_tax_load_title">현금영수증을 불러오시겠습니까?</string>
+    <string name="dialog_export_title">엑셀 파일을 저장하시겠습니까?</string>
+    <string name="dialog_export_enter">내보내기</string>
+
+    <string name="dialog_reload_content">기존 SMS의 수입/지출 내역을 다시 불러옵니다.</string>
+    <string name="delete_dialog_title">삭제하시겠습니까?</string>
+    <string name="delete_dialog_content">내역이 삭제되며 복구할 수 없습니다.</string>
+    <string name="delete_yes">삭제</string>
+    <string name="delete_no">취소</string>
+    <string name="lv2DialogTitle">카테고리를 변경하시겠습니까?</string>
+    <string name="lv2DialogCheckBox">같은 업체에 대하여 일괄 적용하기</string>
+
+    <string name="do_not_look_back">다시 보지 않기</string>
+    <string name="lv2DialogYes">변경하기</string>
+    <string name="lv2DialogNo">취소</string>
+    <string name="reload_dialog_yes">불러오기</string>
+    <string name="reload_dialog_error">기간을 다시 설정해주세요.</string>
+
+    <string name="detail_image_dialog_delete">삭제하기</string>
+
+    <string name="detail_category_dialog_title">분류명</string>
+    <string name="detail_category_dialog_content">상세항목</string>
+
+    <string name="confirm_hashtag_delete_dialog_title">태그를 삭제하시겠습니까?</string>
+    <string name="confirm_hashtag_delete_dialog_content">수입/지출 내역은 삭제되지 않습니다.\n수입/지출 내역 삭제는 \"수입/지출 내역\"화면을 이용해주세요.</string>
+    <string name="confirm_delete_dialog_title">삭제하시겠습니까?</string>
+    <string name="confirm_delete_dialog_content">해당 %1$s와 연결된 모든 수입/지출 내역이 삭제됩니다.(%2$d건)</string>
+    <string name="init_dialog_title">초기화하시겠습니까?</string>
+    <string name="init_dialog_content">모든 데이터와 설정이 삭제되며 복구할 수 없습니다.</string>
+    <string name="init_dialog_yes">초기화</string>
+    <string name="export_dialog_msg">엑셀 파일을 저장 중입니다. 잠시만 기다려주세요.</string>
+    <string name="export_dialog_progress_msg">엑셀 파일을 저장하는 중&#8230;</string>
+    <string name="home_tax_dialog_msg">현금영수증을 불러오는 중입니다. 잠시만 기다려주세요.</string>
+    <string name="reload_dialog_msg">문자를 분석 중입니다. 잠시만 기다려주세요.</string>
+    <string name="reload_dialog_progress_msg">수입/지출 내역을 불러오는 중&#8230;</string>
+
+    <string name="import_dialog_progress_msg">엑셀 파일을 불러오는 중&#8230;</string>
+
+    <string name="notification_catch_dialog_title">앞으로 수신하는 어플 알림을 연동합니다.</string>
+    <string name="notification_catch_dialog_content">현재는 아래의 어플만 연동이 가능합니다. 알림 접근 권한은 오로지 \"수입/지출 내역\" 푸시 알림을 연동하는 용도로만 사용되니, 안심하고 사용하세요!</string>
+    <string name="notification_catch_dialog_yes">다음</string>
+    <string name="notification_catch_dialog_mobi">mobi box</string>
+    <string name="notification_catch_dialog_mobi2">하나카드(체크,신용)</string>
+    <string name="notification_catch_dialog_woori">우리카드</string>
+    <string name="notification_catch_dialog_woori2">우리카드(체크,신용)</string>
+    <string name="notification_catch_dialog_wooribank">WOORI BANK</string>
+    <string name="notification_catch_dialog_wooribank2">우리은행</string>
+    <string name="notification_catch_dialog_one_alarm">ONE 알림</string>
+    <string name="notification_catch_dialog_one_alarm2">기업은행/카드(체크,신용)</string>
+    <string name="notification_catch_dialog_samsung">Samsung Pay</string>
+    <string name="notification_catch_dialog_samsung2">삼성페이</string>
+    <string name="notification_catch_dialog_citi">citi</string>
+    <string name="notification_catch_dialog_citi2">씨티은행</string>
+    <string name="notification_catch_dialog_hana">1Q bank</string>
+    <string name="notification_catch_dialog_hana2">KEB 하나은행</string>
+    <string name="notification_catch_dialog_shinhan">Smail</string>
+    <string name="notification_catch_dialog_shinhan2">신한은행</string>
+
+    <string name="notification_catch_dialog_kbstar">KB스타알림</string>
+    <string name="notification_catch_dialog_kbstar2">국민은행</string>
+
+    <string name="notification_catch_dialog_bnk">BNK부산은행 푸시알림</string>
+    <string name="notification_catch_dialog_bnk2">부산은행</string>
+
+    <string name="notification_catch_dialog_able">현대증권 able카드&amp;뱅킹</string>
+    <string name="notification_catch_dialog_able2">현대증권</string>
+    <string name="notification_catch_dialog_sc2">SC은행</string>
+    <string name="notification_catch_dialog_sc">SC은행 Breeze(브리즈)뱅킹</string>
+
+
+    <string name="notification_catch_dialog_nh">NH스마트 알림</string>
+    <string name="notification_catch_dialog_nh2">농협은행</string>
+
+
+    <string name="notification_catch_dialog_sh">수협 Bank</string>
+    <string name="notification_catch_dialog_sh2">수협은행</string>
+
+
+    <string name="notification_catch_dialog_shin">신협 S뱅킹</string>
+    <string name="notification_catch_dialog_shin2">신협은행</string>
+
+    <string name="notification_catch_dialog_mg">MG스마트알림</string>
+    <string name="notification_catch_dialog_mg2">MG새마을금고</string>
+
+    <string name="combine_card_dialog_title">합쳐진 %1$s는 다시 분리될 수 없습니다.</string>
+    <string name="combine_card_dialog_content">[%1$s별칭]을 같게 설정하면 합치지 않아도 합산되어 분석됩니다. 같은 %2$s인 경우에만 합치기 기능을 이용해주세요.</string>
+    <string name="combine_card_dialog_yes">합치기</string>
+
+    <string name="select_card_dialog_title">대표 %1$s를 선택해주세요.</string>
+
+
+    <!--SelectCategoryActivity-->
+    <string name="title_activity_select_category">카테고리 설정</string>
+    <!--SelectCardActivity-->
+    <string name="title_activity_select_card">지출 수단</string>
+    <string name="select_card_hint">이름을 입력하세요.</string>
+
+    <string name="select_card_error_msg_1">카드 이름을 입력해주세요.</string>
+    <string name="select_card_error_msg_2">최대 10글자까지 가능합니다.</string>
+    <string name="select_card_error_msg_3">이미 같은 카드 이름이 존재합니다.</string>
+    <!--WebActivity-->
+    <string name="title_activity_web_agree">약관 동의</string>
+
+
+    <!--CalculatorActivity-->
+    <string name="title_activity_calculator">CalculatorActivity</string>
+    <string name="calculator_add_tran">수입/지출 입력</string>
+    <string name="calculator_update_budget">월 예산 변경</string>
+    <string name="calculate_change_money">금액 입력</string>
+    <string name="calculate_transfer_money">자산 이동 금액 입력</string>
+
+    <string name="calculator_msg_add_tran">지출금액을 입력하세요.</string>
+    <string name="calculator_msg_update_budget">월 예산을 입력하세요.</string>
+    <string name="calculator_msg_change_money">금액을 입력하세요.</string>
+    <string name="calculator_msg_transfer_money">자산이동할 금액을 입력하세요.</string>
+    <string name="calculator_update_budget_complete">예산 변경 완료</string>
+    <string name="calculator_number_overflow_msg">너무 큰 숫자를 입력했습니다.</string>
+
+
+    <!--UserAddTransactionActivity-->
+    <string name="title_activity_user_add_transaction">상세 내역</string>
+    <string name="user_add_transaction_enter">확 인</string>
+    <string name="user_add_transaction_tag">태그 설정</string>
+
+    <string name="user_add_transaction_not_repeat">반복 없음</string>
+    <string name="user_add_transaction_not_installment">일시불</string>
+    <string name="user_add_transaction_search_web">WEB검색</string>
+
+    <string name="user_add_transaction_keyword_hint">내역을 입력하세요.</string>
+    <string name="user_add_transaction_memo_hint">메모 추가</string>
+    <string name="user_add_transaction_arrow">></string>
+    <string name="user_add_transaction_msg_installment">할부 중인 내역은 반복 설정이 불가합니다.</string>
+    <string name="user_add_transaction_msg_repeat">과거의 날짜는 반복 설정할 수 없습니다.</string>
+
+
+    <string name="user_add_transaction_medium_category_default">상세카테고리 입력</string>
+    <string name="user_add_transaction_label_hint">태그 추가</string>
+    <string name="user_add_transaction_label">#%1$s</string>
+
+
+    <!--RepeatType-->
+    <string name="repeat_setting">반복 알림 설정</string>
+    <string name="repeat_no">반복 없음</string>
+    <string name="repeat_every_month">매월 반복</string>
+    <string name="repeat_every_week">매주 반복</string>
+
+    <!--WebActivity-->
+    <string name="web_search_url">http://m.map.naver.com/search.nhn?query=%1$s</string>
+    <string name="web_faq_url">http://tenqube.com/faq.html</string>
+
+    <string name="service_url">http://tenqube.com/service_agreement_1.html</string>
+    <string name="personal_info_url">http://tenqube.com/service_agreement_2.html</string>
+    <string name="location_url">http://tenqube.com/service_agreement_3.html</string>
+
+    <string name="web_card_ad_url">http://goo.gl/forms/oNJ9Mjjatr</string>
+    <string name="web_agree">서비스 이용약관</string>
+    <string name="web_faq">도움말 및 의견</string>
+    <string name="web_search">WEB 검색</string>
+    <string name="web_card_ad">카드 신청</string>
+    <string name="web_noti">공지사항</string>
+
+    <!--HashTagActivity-->
+    <string name="complete_delete">삭제되었습니다.</string>
+    <string name="make_hash_tag">%1$s 만들기</string>
+    <string name="hash_tag_edit_text_hint">태그 추가</string>
+
+    <!--ExceptKeywordActivity-->
+    <string name="title_activity_except_keyword">ExceptKeywordActivity</string>
+    <string name="make_except_keyword">%1$s 만들기</string>
+    <string name="except_keyword_edit_text_hint">제외 키워드 추가</string>
+
+
+    <!--DetailTransactionActivity-->
+    <string name="title_activity_detail_transaction">상세 내역</string>
+    <string name="detail_tran_installment_msg">할부적용 설정 상태의 경우 원본 내역을 수정할 수 있습니다.</string>
+    <string name="detail_tran_installment_months">%1$d개월</string>
+    <string name="complete_delete_transaction">삭제되었습니다.</string>
+
+    <!--SettingsActivity-->
+    <string name="title_activity_settings">설 정</string>
+    <string name="setting_1">일반</string>
+    <string name="setting_2">할부 적용</string>
+    <string name="setting_3">할부기간 동안 지출액을 나누어 입력/분석합니다.</string>
+    <string name="setting_4">캘린더 연동</string>
+    <string name="setting_5">구글 캘린더에 수입/지출금액을 표시합니다.</string>
+    <string name="setting_6">시작일 설정</string>
+    <string name="setting_7">월별 수입/지출 기록 및 분석의 시작일을 설정합니다.</string>
+    <string name="setting_8">제외 카드 설정</string>
+    <string name="setting_9">분석에서 제외할 카드를 설정합니다.</string>
+    <string name="setting_10">알림</string>
+    <string name="setting_11">예산을 초과할 경우 알림</string>
+    <string name="setting_11_1">일일 브리핑 알림</string>
+    <string name="setting_12">수입/지출 문자가 올 경우 알림</string>
+    <string name="setting_13">문자</string>
+    <string name="setting_14">문자 인식 요청</string>
+    <string name="setting_15">인식되지 않은 수입/지출 문자를 신고합니다.</string>
+    <string name="setting_16">문자 다시 불러오기</string>
+    <string name="setting_17">문자함에 있는 수입/지출 문자를 다시 동기화합니다.</string>
+    <string name="setting_18">보안</string>
+    <string name="setting_19">잠금 설정</string>
+    <string name="setting_20">클립 실행 시 암호를 요구합니다.</string>
+    <string name="setting_21">잠금 암호 변경</string>
+    <string name="setting_22">위에서 설정된 암호를 변경합니다.</string>
+    <string name="setting_23">초기화</string>
+    <string name="setting_24">모든 데이터 초기화</string>
+    <string name="setting_25">모든 데이터와 설정을 삭제합니다.</string>
+    <string name="setting_export_small_title">엑셀</string>
+    <string name="setting_export_title">엑셀 파일 내보내기</string>
+    <string name="setting_export_content">클라우드 공유</string>
+
+
+    <string name="setting_cash_small_title">현금영수증</string>
+    <string name="setting_cash_title">현금영수증 불러오기</string>
+    <string name="setting_cash_content">홈택스에서 현금영수증 내역을 불러옵니다.</string>
+
+    <string name="setting_import_title">엑셀 파일 불러오기</string>
+    <string name="setting_import_content">파일 경로: /qlip/qlip.csv</string>
+    <string name="setting_except_keyword_title">제외 키워드 설정</string>
+    <string name="setting_except_keyword_content">분석에서 제외할 키워드를 설정합니다.</string>
+    <string name="setting_info">정보</string>
+    <string name="setting_agree_title">서비스 이용약관</string>
+    <string name="setting_agree_content">서비스 약관, 개인정보취급방침, 위치정보 활용, 탈퇴</string>
+
+    <string name="setting_open_source_title">오픈소스 라이선스</string>
+    <string name="setting_open_source_content">라이선스에 대한 사용 정보</string>
+
+    <string name="setting_26">계정</string>
+    <string name="setting_27">웹툰 콘텐츠 적용</string>
+    <string name="setting_28">어플리케이션 내에 웹툰 콘텐츠를 적용합니다.</string>
+
+    <string name="settings_google_calendar_msg">구글 캘린더를 처리 중입니다. 잠시만 기다려주세요.</string>
+    <string name="settings_start_day">%1$d일</string>
+    <string name="settings_except_card_zero">없음</string>
+    <string name="settings_install_google_play">구글플레이 설치가 필요합니다.</string>
+    <string name="settings_google_calendar_title">지출 총합</string>
+    <string name="google_calendar_error">구글 캘린더 서버 연결에 실패했습니다.\n다시 시도해주세요.(연결시간 초과)</string>
+    <!--OpenSourceLicenseActivity-->
+    <string name="title_activity_open_source_license">오픈소스 라이선스</string>
+
+    <!--StartDayActivity-->
+    <string name="title_activity_start_day">시작일 변경</string>
+    <string name="start_day_confirm">확 인</string>
+    <string name="start_day_msg">마지막 날짜를 선택하면 매달 말일로 설정됩니다.</string>\
+    <string name="title_activity_sms_request">문자인식 요청</string>
+    <string name="sms_request_msg">문자를 불러오는 중&#8230;%1$s</string>
+    <string name="sms_request_send_ok">요청됨</string>
+
+    <string name="sms_request_confirm_msg">빠르게 반영하겠습니다. 감사합니다.</string>
+    <!--SearchActivity-->
+    <string name="title_activity_search">검색</string>
+    <string name="search_edit_text_hint">검색</string>
+    <string name="search_title">검색</string>
+    <string name="search_usd">해외결제</string>
+    <string name="search_start_date2">기준일:%1$d일</string>
+    <string name="search_domestic">국내결제</string>
+    <string name="search_installment">할부</string>
+
+    <string name="search_start_date">시작일 설정</string>
+    <string name="search_deposit_category">수입 카테고리</string>
+    <string name="search_withdraw_category">지출 카테고리</string>
+
+    <string name="search_card">카드</string>
+    <string name="search_bank">계좌</string>
+
+    <string name="search_tag">태그</string>
+    <string name="search_etc">기타</string>
+    <string name="search_except_msg">분석 대상에서 제외된 상태입니다.</string>
+
+    <string name="search_repeat">반복</string>
+
+    <!--RepeatTransactionActivity-->
+    <string name="repeat_transaction_enter">확 인(%1$s)</string>
+
+    <string name="image_desc">Ad image</string>
+    <string name="qlip_tip_header">클립 소개</string>
+
+    <!--LibraryActivity-->
+    <string name="title_activity_library">내 라이브러리</string>
+    <string name="library_menu_title">%1$d개 %2$s를 합칩니다.</string>
+    <string name="library_card_error_msg">최소 2개 이상 선택해야 합니다.</string>
+    <string name="library_tab_bank">계좌</string>
+    <string name="library_tab_card">카드</string>
+    <string name="library_tab_category">카테고리</string>
+
+    <string name="library_tab_category_withdraw">지출 카테고리</string>
+    <string name="library_tab_category_deposit">수입 카테고리</string>
+
+    <string name="library_tab_tag">태그</string>
+
+    <string name="library_menu_except">분석에서 제외</string>
+    <string name="library_menu_combine">카드 합치기</string>
+
+    <string name="library_menu_combine_bank">계좌 합치기</string>
+
+    <string name="library_menu_add">분석에 추가</string>
+
+    <string name="library_menu_main">메인에서 숨기기</string>
+    <string name="library_menu_main_add">메인에 추가</string>
+    <string name="library_menu_edit_tag">태그 수정</string>
+
+    <string name="library_menu_detail">상세 정보</string>
+
+    <string name="library_msg_analysis_except">해당 태그 내역은 분석에 포함되지 않으며, 메인에서 보여지지 않습니다.</string>
+    <string name="library_msg_main_type">메인에 태그가 추가됩니다.</string>
+    <string name="msg_library_delete_cash">현금은 삭제할 수 없습니다.</string>
+
+
+    <!--medium-->
+
+    <string name="med_Meet">2222</string>
+    <string name="med_Batch">2221</string>
+    <string name="med_Buffet">2220</string>
+    <string name="med_Asian_Food">2219</string>
+    <string name="med_Midnight_Snack">2224</string>
+    <string name="med_Food">2218</string>
+    <string name="med_General_restaurant">2217</string>
+    <string name="med_Japanese">2216</string>
+    <string name="med_Chinese">2215</string>
+    <string name="med_Chicken">2214</string>
+    <string name="med_Family_Restaurant">2213</string>
+    <string name="med_Fastfood">2212</string>
+    <string name="med_Korean">2211</string>
+
+    <string name="med_Bar">2613</string>
+    <string name="med_Leisure_facilities">2612</string>
+    <string name="med_Nightlife">2611</string>
+
+
+    <string name="med_Nail">4614</string>
+    <string name="med_Skin_Body_Management">4612</string>
+    <string name="med_Hair">4611</string>
+    <string name="med_Cosmetic">4613</string>
+
+
+    <string name="med_Donut_Ice_Creamt">2416</string>
+    <string name="med_Dessert_bread">2415</string>
+    <string name="med_Bakery">2414</string>
+    <string name="med_Sandwiches_hotdogs">2413</string>
+    <string name="med_Tea_juice_ice_water">2412</string>
+    <string name="med_coffee">2411</string>
+
+    <string name="med_book">5612</string>
+    <string name="med_movie">5611</string>
+    <string name="med_Exhibition">5614</string>
+    <string name="med_Performance">5613</string>
+    <string name="med_hobby">5615</string>
+
+    <string name="med_Appliances_Furniture">3218</string>
+    <string name="med_Mart">3218</string>
+    <string name="med_Pets">3215</string>
+    <string name="med_infant">3214</string>
+    <string name="med_Everyday_goods">3213</string>
+    <string name="med_Housework">3212</string>
+    <string name="med_Convenience">3211</string>
+
+
+    <string name="med_Department_store">3615</string>
+    <string name="Sports_clothing">3614</string>
+    <string name="med_Outlet">3613</string>
+    <string name="med_Fashion">3611</string>
+    <string name="med_Miscell">3612</string>
+
+
+    <string name="med_School">5414</string>
+    <string name="med_Learning_Materials">5413</string>
+    <string name="med_Learning_Facilities">5412</string>
+    <string name="med_Academy">5411</string>
+
+    <string name="med_finance">4213</string>
+    <string name="med_Insurance">4212</string>
+    <string name="med_Tax">4211</string>
+    <string name="med_interest">4215</string>
+    <string name="med_savings">4214</string>
+    <string name="med_commission">4216</string>
+
+    <string name="med_Supplements">4416</string>
+    <string name="med_Medical_treatment">4415</string>
+    <string name="med_Medical_Equipment">4417</string>
+    <string name="med_pharmacy">4414</string>
+    <string name="med_Medical">4413</string>
+    <string name="med_Dentist">4412</string>
+    <string name="med_Clinic">4411</string>
+
+    <string name="med_Administrative_expenses">5215</string>
+    <string name="med_Real_Estate_Services">5214</string>
+    <string name="med_Monthly_Taxes">5213</string>
+    <string name="med_move">5212</string>
+    <string name="med_Communication">5211</string>
+    <string name="med_Bills">5216</string>
+
+
+    <string name="med_Leisure">6415</string>
+    <string name="med_Martial_Arts">6414</string>
+    <string name="med_Spa">6413</string>
+    <string name="med_Sports">6412</string>
+    <string name="med_yoga">6411</string>
+
+    <string name="med_Public_transportation">6214</string>
+    <string name="med_Car">6213</string>
+    <string name="med_Oil">6212</string>
+    <string name="med_Taxi">6216</string>
+    <string name="med_Agent">6211</string>
+    <string name="med_Air">6217</string>
+
+
+    <string name="med_Sightseeing">6614</string>
+    <string name="med_park">6416</string>
+
+    <string name="med_Souvenir">6615</string>
+    <string name="med_Accommodation">6613</string>
+    <string name="med_Travel">6612</string>
+    <string name="med_Border_payments">6611</string>
+
+    <string name="med_Internet_Shopping">3412</string>
+    <string name="med_Home_Shopping">3411</string>
+    <string name="med_Card_Point">3414</string>
+
+
+    <string name="med_family_ect">8210</string>
+    <string name="med_dues">8212</string>
+    <string name="med_allowance">8213</string>
+    <string name="med_offering">8214</string>
+    <string name="med_donate">8215</string>
+
+    <string name="med_Etc">1010</string>
+    <string name="food_code">22</string>
+    <string name="alcohol_code">26</string>
+    <string name="cafe_code">24</string>
+    <string name="education_code">54</string>
+    <string name="transport_code">62</string>
+    <string name="finance_code">42</string>
+    <string name="culture_code">56</string>
+    <string name="livings_code">52</string>
+    <string name="mart_code">32</string>
+    <string name="beauty_code">46</string>
+    <string name="shopping_code">36</string>
+    <string name="health_care_code">44</string>
+    <string name="travel_code">66</string>
+    <string name="leports_code">64</string>
+    <string name="online_code">34</string>
+    <string name="family_event_code">82</string>
+    <string name="uncate_code">10</string>
+
+
+    <string name="google_calendar_deposit">qlip-수입</string>
+    <string name="google_calendar_withdraw">qlip-지출</string>
+
+    <string name="title_activity_sms_test">SmsTestActivity</string>
+    <string name="title_activity_detail_card">결제수단 상세</string>
+
+    <string name="detail_card_hint">별칭 추가</string>
+    <string name="detail_card_start_date_hint">기준일 설정</string>
+    <string name="detail_card_start_memo_hint">메모 추가</string>
+    <string name="detail_card_month">결제금액</string>
+    <string name="detail_card_send_money">자산 이동</string>
+    <string name="detail_card_connect_bank">계좌연결</string>
+
+    <string name="detail_card_billing_date">기준일 %1$d일</string>
+    <string name="detail_card_camera">카메라</string>
+    <string name="detail_card_gallery">갤러리</string>
+    <string name="detail_card_gallery_title">사진 업로드 옵션</string>
+    <string name="detail_card_gallery_content">사진을 불러올 어플리케이션을 선택해주세요.</string>
+    <string name="detail_card_bank_alias">계좌별칭 없음</string>
+    <string name="detail_card_alias">카드별칭 없음</string>
+
+
+    <string name="title_activity_select_transfer_card">계좌 선택</string>
+
+    <!--AppSyncDialogFragment-->
+    <string name="title_fragment_app_sync_dialog">어플알림 연동을 할 수 없습니다.</string>
+    <string name="content_fragment_app_sync_dialog">어플알림 연동을 위해서는 안드로이드 OS버전 킷캣(4.4) 이상이 필요합니다.\n현재 기기의 OS버전은 %1$s입니다.\n[설정]->[디바이스 정보]->[소프트웨어 업데이트]에서 업데이트가 가능합니다.</string>
+    <string name="calendar_update_title">구글 캘린더 연동 기능 향상을 위해 캘린더 권한이 추가되었습니다.</string>
+
+    <string name="title_activity_filtered_transaction_list">FilteredTransactionListActivity</string>
+    <string name="filtered_transaction_list_title">분석에 사용된 내역</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="skip">건너뛰기</string>
+    <string name="finish">시작하기</string>
+    <string name="next">다음</string>
+
+    <string name="intro_1_title">더 이상 가계부를 쓰지 마세요</string>
+    <string name="intro_1_content">클립은 지출 내역 SMS를 자동으로\n분석하고 분류하여 알기 쉽게 보여줍니다.</string>
+
+    <string name="intro_2_title">나도 모르던 나의\n소비패턴을 알아보세요</string>
+    <string name="intro_2_content">클립은 소비와 생활 패턴을 분석하여\n인포그래픽 보고서를 제공합니다.</string>
+
+    <string name="intro_3_title">다양한 기능을 경험하세요</string>
+    <string name="intro_3_content">설정을 통해 구글캘린더 연동, 시작일 변경,\n태그 설정, 특정카드 제외, 할부 등\n다양한 관리 기능이 제공됩니다.</string>
+
+
+    <string name="send_to">Send to&#8230;</string>
+
+    <string name="error_agree_msg">약관에 동의하셔야 가입이 가능합니다.</string>
+
+    <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours">Select hours</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes">Select minutes</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="mdtp_item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> selected</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">--</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="mdtp_from">FROM</string>
+    <string name="mdtp_to">TO</string>
+
+
+    <string name="fingerprint_hint">암호 입력</string>
+    <string name="fingerprint_not_recognized">지문 인식 실패! 다시 시도해주세요.</string>
+    <string name="fingerprint_success">지문 인식 성공</string>
+    <string name="title_activity_app_widget_configure">위젯설정</string>
+    <string name="app_widget_configure_alpha_title_0">테마</string>
+    <string name="app_widget_configure_alpha_title">투명도</string>
+
+    <string name="app_widget_configure_alpha_0">0%</string>
+    <string name="app_widget_configure_alpha_100">100%</string>
+    <string name="settings_init_success">모든 데이터를 초기화했습니다.</string>
+    <string name="settings_google_calendar_msg_2">구글 캘린더에 보조캘린더를 생성하고 동기화하는데 약간의 시간이 소요됩니다.\n잠시만 기다려주세요.</string>
+    <string name="menu_right">내역</string>
+
+    <string name="detail_card_fail_msg">파일 생성에 실패했습니다.</string>
+    <string name="detail_card_fail_msg2">숫자만 입력 가능합니다.</string>
+
+    <string name="detail_card_title_bank">계좌 상세</string>
+    <string name="detail_card_title_card">카드 상세</string>
+    <string name="detail_card_pay_money">결제금액</string>
+    <string name="detail_card_balance">잔액</string>
+    <string name="detail_card_accumulated_amount">누적</string>
+
+    <string name="detail_card_name_msg">이름을 입력해주세요.</string>
+    <string name="loading_back_pressed_msg">분석 중 종료시 심각한 오류가 발생할 수 있습니다. 한 번 더 누르면 분석이 종료됩니다.</string>
+
+
+    <string name="lock_screen_activity_fingerprint_msg">지문이 설정되어 있지 않습니다. "휴대폰 설정 -> 보안 -> 지문"에서 지문을 설정해주시기 바랍니다</string>
+
+    <string name="just_online_msg">해당 기능은 서버와 동기화된 상태에서만 가능합니다.</string>
+    <string name="title_activity_terms">서비스 이용약관</string>
+    <string name="terms_service">서비스 이용약관</string>
+    <string name="terms_personal_info">개인정보 취급방침</string>
+    <string name="terms_location">위치정보 이용약관</string>
+    <string name="terms_secession">서비스 탈퇴</string>
+
+    <string name="terms_dialog_title">서비스 탈퇴</string>
+    <string name="terms_dialog_contents">%1$s 계정을 삭제하시겠습니까?</string>
+    <string name="terms_dialog_yes">탈퇴</string>
+
+    <string name="terms_dialog_msg">탈퇴확인 링크를 전송하였습니다(%1$s).</string>
+
+    <string name="tran_list">내역</string>
+    <string name="disconnect_bank">연결해제</string>
+
+    <string name="select_card_connect_bank">연결 계좌 선택</string>
+    <string name="select_card_deposit">수입 수단</string>
+    <string name="select_card_withdraw">지출 수단</string>
+    <string name="select_card_connect_bank_msg">연결된 계좌에서 카드 결제 금액이 차감됩니다.</string>
+    <string name="select_card_connect_deposit_msg">수입은 계좌로만 입력가능합니다.</string>
+    <string name="title_activity_spinner_tabs">SpinnerTabsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_viewpagertest">viewpagertest</string>
+    <string name="withdraw_detail">지출 상세내역</string>
+    <string name="deposit_detail">수입 상세내역</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
+
+
+

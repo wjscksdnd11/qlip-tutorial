@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/qlip_main_green</item>
+        <item name="colorPrimary">@color/qlip_main_black_lv0</item>
+        <item name="colorPrimaryDark">@color/qlip_main_black_lv0</item>
+
+    </style>
+
+    <style name="Widget.Spinner.DropDown.ListView" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="WeekTextView" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/qlip_main_white</item>
+    </style>
+    <style name="NavigationDrawerTextStyle">
+        <item name="android:textSize">10sp</item><!-- text size in menu-->
+        <item name="android:textColor">#DE000000</item><!--87% alpha-->
+    </style>
+    <style name="AppTheme.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:listDivider">@color/drawer_divider</item>
+        <item name="android:itemPadding">200dp</item>
+        <item name="itemTextAppearance">@style/NavigationDrawerTextStyle</item>
+    </style>
+</resources>

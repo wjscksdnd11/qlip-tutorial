@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/qlip_main_dark_3"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/calandar_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="day"
+        android:textColor="@color/qlip_main_text"
+        android:textSize="13sp"
+
+        />
+    <!--<TextView-->
+        <!--android:id="@+id/extra_item"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="right"-->
+        <!--android:textColor="@color/qlip_main_text"-->
+        <!--android:textSize="10sp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spent_layout"
+
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>

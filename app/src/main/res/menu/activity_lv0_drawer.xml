@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lv2_tran"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/drawer_lv2_tran" />
+        <item
+            android:id="@+id/library_card_bank"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/drawer_library_card_bank" />
+        <item
+            android:id="@+id/month_budget"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/drawer_month_buget"
+            app:actionLayout="@layout/month_buget_item"/>
+        <item
+            android:id="@+id/noti_catch"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/drawer_noti_catch"
+            app:actionLayout="@layout/month_buget_item"/>
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/drawer_settings" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/drawer_faq" />
+    </group>
+
+
+</menu>

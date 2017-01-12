@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/check_box_sel"
+            android:id="@+id/checkbox"
+            android:visibility="gone"
+
+            />
+        <TextView
+            android:id="@+id/text_card_name"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textSize="11sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_spnet_time"
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center_vertical|right"
+            android:textSize="11sp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/category_icon"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:id="@+id/text_spent_keyword"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:textSize="11sp"
+            android:gravity="right"
+            android:maxLines="1"
+            android:paddingRight="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_spnet_money"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:maxLines="1"
+            android:textSize="11sp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>
